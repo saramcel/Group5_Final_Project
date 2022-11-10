@@ -6,23 +6,41 @@
   - [hanstout](https://github.com/hanstout)
   - [AlexKrumins](https://github.com/AlexKrumins)
 
+## First Segement
+### Presentation
+Selected Topic: 
+  Personal Key Indicators of Heart Disease
+Reason for Topic: 
+  Heart Disease affects us all and we have each been affected to various degrees by this disease.
+Source of Data Description: 
+  The data source contains 18 variables with Heart Disease as the first column which is the Explanatory Variable.
+Questions they hope to answer with the data:
+  1. What are the top contributors to Heart Disease based on the features of this data set?
+  2. What are the least contributing features in this data set?
+  3. What combinations are the worst for Heart Disease outcomes?
+
 ## First Segment Requirements
 ### Presentation
-- [] Selected topic
-- [] Reason why they selected their topic
-- [] Description of their source of data
-- [] Questions they hope to answer with the data
+- [✓] Selected topic
+- [✓] Reason why they selected their topic
+- [✓] Description of their source of data
+- [✓] Questions they hope to answer with the data
 
 ### GitHub
 #### Main Branch
-- [] Includes a README.md
+- [✓] Includes a README.md
 
 #### Communication Protocols
 - [] Communication Protocols added
 
 #### Individual Branches
-- [] At least one branch for each team member
-- [] Each team member has at least four commits from the duration of the first segment
+| Name | At least one branch for each team member | Each team member has at least four commits from the duration of the first segment |
+| --- | --- | --- |
+| Alex |✓|-|
+| JB |✓|-|
+| Sara |✓|-|
+| Hannah |-|-|
+| Darin |✓|-|
 
 Note: The descriptions and
 explanations required in all other
