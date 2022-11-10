@@ -19,6 +19,26 @@ Questions they hope to answer with the data:
   2. What are the least contributing features in this data set?
   3. What combinations are the worst for Heart Disease outcomes?
 
+#### Communication Protocols
+- Slack for the main discussion
+- Git hub for commenting on code additions
+- Zoom for screen-sharing
+
+### Tech Overview - Hannah
+
+### GitHub - Alex
+
+### Machine Learning Model - JB
+
+### Database - PostgresSQL - Sara
+
+### Visualization - Tableau
+
+
+
+<details><summary>Click the Arrow on the left to expand the First Segment Requirements </summary>
+<p>
+    
 ## First Segment Requirements
 ### Presentation
 - [✓] Selected topic
@@ -39,7 +59,7 @@ Questions they hope to answer with the data:
 | Alex |✓|-|
 | JB |✓|-|
 | Sara |✓|-|
-| Hannah |-|-|
+| Hannah |✓|-|
 | Darin |✓|-|
 
 Note: The descriptions and
@@ -57,3 +77,10 @@ Team members present a provisional machine learning model that stands in for the
 Team members present a provisional database that stands in for the final database and accomplishes the following:
 - [] Sample data that mimics the expected final database structure or schema
 - [] Draft machine learning module is connected to the provisional database 
+
+ </p>
+ </details>
+
+
+
+
