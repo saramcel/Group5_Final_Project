@@ -19,6 +19,8 @@ Questions they hope to answer with the data:
   2. What are the least contributing features in this data set?
   3. What combinations are the worst for Heart Disease outcomes?
 
+Link to Draft Google Slides: https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8-WxlcsyS_BWhDxWs/edit?usp=sharing
+
 #### Communication Protocols
 - Slack for the main discussion
 - Git hub for commenting on code additions
