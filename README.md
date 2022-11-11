@@ -27,6 +27,7 @@ Questions they hope to answer with the data:
 ### Tech Overview - Hannah
 
 ### GitHub - Alex
+One challenge facing the team in this assignment is the (potentially) daunting task of collaborating via GitHub. At times, GitHub can seem overwhelming to newcomers first learning & navigating the environment. Leveraging the experience of [AlexKrumins](https://github.com/AlexKrumins), the group will use GitHub not only as a repository for storing data, code, and analyses but also as a learning tool to develop the necessary practices for safe and secure code development.
 
 ### Machine Learning Model - JB
 
