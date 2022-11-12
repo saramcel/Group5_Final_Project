@@ -34,7 +34,7 @@ One challenge facing the team in this assignment is the (potentially) daunting t
 ### Machine Learning Model - JB
 
 ### Database - PostgresSQL - Sara
-Hi my name is sara and i writ inn all lower case
+Sara has the circle role for the first segment. That means I took the csv file and put it into SQL using Postgres. 
 ### Visualization - Tableau
 
 
