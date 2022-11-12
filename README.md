@@ -34,7 +34,7 @@ One challenge facing the team in this assignment is the (potentially) daunting t
 ### Machine Learning Model - JB
 
 ### Database - PostgresSQL - Sara
-
+Hi my name is sara and i writ inn all lower case
 ### Visualization - Tableau
 
 
