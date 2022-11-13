@@ -19,7 +19,7 @@ Questions they hope to answer with the data:
   2. What are the least contributing features in this data set?
   3. What combinations are the worst for Heart Disease outcomes?
 
-Link to Draft Google Slides: https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8-WxlcsyS_BWhDxWs/edit?usp=sharing
+Click [here](https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8-WxlcsyS_BWhDxWs/edit?usp=sharing) for Google Slides Draft.
 
 #### Communication Protocols
 - Slack for the main discussion
@@ -27,6 +27,7 @@ Link to Draft Google Slides: https://docs.google.com/presentation/d/1YcjTtTXW_Eb
 - Zoom for screen-sharing
 
 ### Tech Overview - Hannah
+For technologies, see technology.md file. 
 
 ### GitHub - Alex
 One challenge facing the team in this assignment is the (potentially) daunting task of collaborating via GitHub. At times, GitHub can seem overwhelming to newcomers first learning & navigating the environment. Leveraging the experience of [AlexKrumins](https://github.com/AlexKrumins), the group will use GitHub not only as a repository for storing data, code, and analyses, but also as a learning tool to develop the necessary practices for safe and secure code development.
