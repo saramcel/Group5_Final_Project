@@ -8,18 +8,21 @@
 
 ## First Segement
 ### Presentation
-Selected Topic: 
+Selected Topic:  
   Personal Key Indicators of Heart Disease
-Reason for Topic: 
-  Heart Disease affects us all and we have each been affected to various degrees by this disease.
-Source of Data Description: 
-  The data source contains 18 variables with Heart Disease as the first column which is the Explanatory Variable.
+Reason for Topic:  
+  Heart Disease affects us all and we have each been affected to various degrees by this disease.  
+Source of Data Description:  
+  The data source contains 18 variables with Heart Disease as the first column which is the Explanatory Variable.  
+  See HeartDiseaseData2020_defs.md for each variable defined as provided in dataset. 
+
 Questions they hope to answer with the data:
   1. What are the top contributors to Heart Disease based on the features of this data set?
   2. What are the least contributing features in this data set?
   3. What combinations are the worst for Heart Disease outcomes?
 
-Link to Draft Google Slides: https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8-WxlcsyS_BWhDxWs/edit?usp=sharing
+Click [here](https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8-WxlcsyS_BWhDxWs/edit?usp=sharing) for Google Slides Draft.
+
 
 #### Communication Protocols
 - Slack for the main discussion
@@ -27,6 +30,7 @@ Link to Draft Google Slides: https://docs.google.com/presentation/d/1YcjTtTXW_Eb
 - Zoom for screen-sharing
 
 ### Tech Overview - Hannah
+For technologies, see technology.md file. 
 
 ### GitHub - Alex
 One challenge facing the team in this assignment is the (potentially) daunting task of collaborating via GitHub. At times, GitHub can seem overwhelming to newcomers first learning & navigating the environment. Leveraging the experience of [AlexKrumins](https://github.com/AlexKrumins), the group will use GitHub not only as a repository for storing data, code, and analyses, but also as a learning tool to develop the necessary practices for safe and secure code development.
@@ -35,6 +39,7 @@ One challenge facing the team in this assignment is the (potentially) daunting t
 
 ### Database - PostgresSQL - Sara
 Sara has the circle role for the first segment. That means I took the csv file and put it into SQL using Postgres. 
+
 ### Visualization - Tableau
 
 
@@ -83,7 +88,3 @@ Team members present a provisional database that stands in for the final databas
 
  </p>
  </details>
-
-
-
-
