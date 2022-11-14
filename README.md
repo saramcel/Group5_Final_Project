@@ -65,7 +65,7 @@ Sara has the circle role for the first segment. That means I took the csv file a
 | Name | At least one branch for each team member | Each team member has at least four commits from the duration of the first segment |
 | --- | --- | --- |
 | Alex |✓|✓|
-| JB |✓|-|
+| JB |✓|✓|
 | Sara |✓|✓|
 | Hannah |✓|✓|
 | Darin |✓|✓|
