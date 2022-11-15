@@ -22,4 +22,3 @@ CREATE TABLE "HeartDiseaseDB1" (
 );
 
 SELECT * FROM "HeartDiseaseDB1";
-
