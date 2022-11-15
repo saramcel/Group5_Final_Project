@@ -45,17 +45,17 @@ The detailed discussion concerning the attributes of unsupervised machine learni
 In a supervised machine learning environment the input data is refined into paired outcomes. The paired outcomes then provide a "supervised" lens that facilitates the training and test of the supervised machine learning model to predict potential coorelations using new data.
 For the purpose of the project, Team 5 will aplly supervised machine learning in accordance with the below graphic.
 
-![Team 5 supervised Machine Learning Model: a graphic representation] (INSERT LINK HERE)
+![Team 5 supervised Machine Learning Model: a graphic representation] (https://github.com/AlexKrumins/Group5_Final_Project/blob/main/TM5_ML_model_graphic.png)
 
 In the above graphic the Team has sketched the project into 3 phases to aid in further development of the final project.
 
-*1 Training Phase
+  * 1 Training Phase
 In this phase the team selected a dataset that provides cleans and paired date where the Y (dependent) and X (independent) variable are available. Once all of the identified datasets are cleaned and processed the data set is divided into a ttrainingn set and testing set.  According to the KU Boot Camp documentation it recommends a 70% training set to train the model.
 
-*2 Validation Phase
+  * 2 Validation Phase
  This phase applies the model's learning algorithm to the remaining 30% of the given data set. In essence the data is known and the team is testing the model to ensure outputs are inline with defined data.  Assumptions about the dataset, conditions, and hypothesis begin taking shape.
 
-*3 Application Phase
+  * 3 Application Phase
 Once the model has passed the validation phase, it is now time to apply a new data set. Standard data pre-procession of the data set is required to ensure the data is cleaned and aligned to make the machine learning process effective. the final phase provides a machine learning solution to the new data set and present potential prediction of conditions relevant to the variables and environmental influences.
 
 ### Database - PostgresSQL - Sara
