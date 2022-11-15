@@ -45,7 +45,7 @@ The detailed discussion concerning the attributes of unsupervised machine learni
 In a supervised machine learning environment the input data is refined into paired outcomes. The paired outcomes then provide a "supervised" lens that facilitates the training and test of the supervised machine learning model to predict potential coorelations using new data.
 For the purpose of the project, Team 5 will aplly supervised machine learning in accordance with the below graphic.
 
-![Team 5 supervised Machine Learning Model: a graphic representation] (https://github.com/AlexKrumins/Group5_Final_Project/blob/main/TM5_ML_model_graphic.png)
+![Team 5 supervised Machine Learning Model: a graphic representation](https://github.com/AlexKrumins/Group5_Final_Project/blob/main/TM5_ML_model_graphic.png)
 
 In the above graphic the Team has sketched the project into 3 phases to aid in further development of the final project.
 
