@@ -59,7 +59,7 @@ In this phase the team selected a dataset that provides cleans and paired date w
 Once the model has passed the validation phase, it is now time to apply a new data set. Standard data pre-procession of the data set is required to ensure the data is cleaned and aligned to make the machine learning process effective. the final phase provides a machine learning solution to the new data set and present potential prediction of conditions relevant to the variables and environmental influences.
 
 ### Database - PostgresSQL - Sara
-Sara has the circle role for the first segment. That means I took the csv file and put it into SQL using Postgres. 
+The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD (table1_schema) decribes the data types for the main table. 
 
 ### Visualization - Tableau
 
