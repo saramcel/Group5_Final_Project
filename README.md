@@ -25,8 +25,8 @@ Click [here](https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8
 
 
 #### Communication Protocols
-- Slack for the main discussion
-- Git hub for commenting on code additions
+- Slack for the main discussion & P2P correspondence.
+- GitHub for commenting on code additions
 - Zoom for screen-sharing
 
 ### Tech Overview - Hannah
@@ -80,16 +80,16 @@ Sara has the circle role for the first segment. That means I took the csv file a
 - [✓] Includes a README.md
 
 #### Communication Protocols
-- [] Communication Protocols added
+- [✓] Communication Protocols added
 
 #### Individual Branches
 | Name | At least one branch for each team member | Each team member has at least four commits from the duration of the first segment |
 | --- | --- | --- |
-| Alex |✓|-|
-| JB |✓|-|
-| Sara |✓|-|
-| Hannah |✓|-|
-| Darin |✓|-|
+| Alex |✓|✓|
+| JB |✓|✓|
+| Sara |✓|✓|
+| Hannah |✓|✓|
+| Darin |✓|✓|
 
 Note: The descriptions and
 explanations required in all other
