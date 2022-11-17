@@ -1,0 +1,14 @@
+AgeCategory,Age Risk
+18-24,Low Risk
+25-29,Low Risk
+30-34,Low Risk
+35-39,Low Risk
+40-44,Low Risk
+45-49,Medium Risk
+50-54,Medium Risk
+55-59,Medium Risk
+60-64,Medium Risk
+65-69,High Risk
+70-74,High Risk
+75-79,High Risk
+80 or older,High Risk
