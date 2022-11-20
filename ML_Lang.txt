@@ -1,0 +1,32 @@
+import pandas as pd
+from path import Path
+from collections import Counter
+
+data = Path('../Resources/cc_default.csv')
+df = pd.read_csv(data)
+df.head()
+
+x_cols = [i for i in df.columns if i not in ('ID', 'default_next_month')]
+X = df[x_cols]
+y = df['default_next_month']
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
+
+from imblearn.combine import SMOTEENN
+smote_enn = SMOTEENN(random_state=0)
+X_resampled, y_resampled = smote_enn.fit_resample(X, y)
+
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression(solver='lbfgs', random_state=1)
+model.fit(X_resampled, y_resampled)
+
+from sklearn.metrics import confusion_matrix
+y_pred = model.predict(X_test)
+confusion_matrix(y_test, y_pred)
+
+from sklearn.metrics import balanced_accuracy_score
+balanced_accuracy_score(y_test, y_pred)
+
+from imblearn.metrics import classification_report_imbalanced
+print(classification_report_imbalanced(y_test, y_pred))
