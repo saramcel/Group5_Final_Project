@@ -104,12 +104,14 @@ The team has elected to use a Postgres SQL database to store the data tables for
 
 ## Visualization - Tableau - Hannah  
 [Storyboard](https://docs.google.com/presentation/d/1pKxIwqTSkS6hSRaHQHCl31KS4-U53mBcugnEquo3WC4/edit#slide=id.p) on Google Slides.
+The storyboard outlines and explains our project, additional information regarding heart disease and the future of our final dashboard. 
 ### Tool Description
-We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population.
+We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population. As well as tying in interactive elements using features within Tableau. 
 
 ### Interactive element(s) 
 - Input of city and county locations to see personal community risk factors. 
-- Input of personal identifiers to see highest personal self-risk facors. 
+- Input of personal identifiers to see highest personal self-risk facors.  
+Within these interactive elements, a user will be able to make our dashboard fuctional for personal use at an individual and community level. 
 
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
