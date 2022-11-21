@@ -108,7 +108,8 @@ The team has elected to use a Postgres SQL database to store the data tables for
 We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population.
 
 ### Interactive element(s) 
-
+- Input of city and county locations to see personal community risk factors. 
+- Input of personal identifiers to see highest personal self-risk facors. 
 
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
