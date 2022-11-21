@@ -103,7 +103,7 @@ The team has elected to use a Postgres SQL database to store the data tables for
 ![Schema](https://raw.githubusercontent.com/AlexKrumins/Group5_Final_Project/main/TableSchemas/all_tables_schema.png)
 
 ## Visualization - Tableau - Hannah  
-[Storyboard](https://docs.google.com/presentation/d/1pKxIwqTSkS6hSRaHQHCl31KS4-U53mBcugnEquo3WC4/edit#slide=id.p) on Google Slides.
+[Storyboard](https://docs.google.com/presentation/d/1pKxIwqTSkS6hSRaHQHCl31KS4-U53mBcugnEquo3WC4/edit#slide=id.p) on Google Slides.  
 The storyboard outlines and explains our project, additional information regarding heart disease and the future of our final dashboard. 
 ### Tool Description
 We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population. As well as tying in interactive elements using features within Tableau. 
