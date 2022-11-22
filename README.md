@@ -98,9 +98,9 @@ Once the model has passed the validation phase, it is now time to apply a new da
 ### Model Choice (including limitations and benefits)
 
 ## Database - PostgresSQL - Sara
-The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [table1_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/main/table1_schema.png) decribes the data types for the main table. 
+The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [all_tables_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/ed813a1c75cdc1ce08a91933a98e4c18a56b7856/TableSchemas/all_tables_schema.png) decribes the data types for the main table. 
 
-![Schema](https://raw.githubusercontent.com/AlexKrumins/Group5_Final_Project/main/TableSchemas/all_tables_schema.png)
+![Schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/ed813a1c75cdc1ce08a91933a98e4c18a56b7856/TableSchemas/all_tables_schema.png)
 
 ## Visualization - Tableau - Hannah
 ### Tool Description
