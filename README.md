@@ -103,12 +103,11 @@ The team has elected to use a Postgres SQL database to store the data tables for
 ![Schema](https://raw.githubusercontent.com/AlexKrumins/Group5_Final_Project/main/TableSchemas/all_tables_schema.png)
 
 ## Visualization - Tableau - Hannah  
-[Storyboard](https://docs.google.com/presentation/d/1Tq_YHoIKLA8vM0sTt9MWIpa8TwNmWDq270CLZIofgjA/edit#slide=id.g19559894a09_1_65) featured Google Slides.  
- 
-### Tool Description
-We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population. As well as tying in interactive elements using features within Tableau. 
 
-### Interactive element(s) 
+### [Storyboard](https://docs.google.com/presentation/d/1Tq_YHoIKLA8vM0sTt9MWIpa8TwNmWDq270CLZIofgjA/edit#slide=id.g19559894a09_1_65) featured Google Slides.  
+ 
+### Summary: 
+We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population. As well as tying in interactive elements using features within Tableau. These interactive elements will include: 
 - Input of city and county locations to see personal community risk factors. 
 - Input of personal identifiers to see highest personal self-risk facors.  
 
