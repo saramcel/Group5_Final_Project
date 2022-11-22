@@ -102,7 +102,7 @@ The team has elected to use a Postgres SQL database to store the data tables for
 
 ![Schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/ed813a1c75cdc1ce08a91933a98e4c18a56b7856/TableSchemas/all_tables_schema.png)
 
-The smaller tables contain the custom categories that we determined as a team based on additinal research. 
+The smaller tables contain the custom categories that we determined as a team based on additional research. 
 
   * **Age Categories:** There were thirteen categories in the AgeCategory variable, and we did not have a logical reason to examine so many different categories separately (i.e. would there be any meaningful difference between the 18-24 group and the 25-29 group? Probably not). We researched how age interacted with heart disease risk, and we created three risk categories. 
     * The Low Risk category goes from age 18 to 44, because monitoring involves routine tests of blood pressure and cholesterol. 
