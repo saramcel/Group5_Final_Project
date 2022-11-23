@@ -117,17 +117,17 @@ Overall Project Management has been overseen by Darin Myers. Darin supervised an
     
 ## First Segment Requirements
 ### Presentation
-- [✓] Selected topic
-- [✓] Reason why they selected their topic
-- [✓] Description of their source of data
-- [✓] Questions they hope to answer with the data
+- [x] Selected topic
+- [x] Reason why they selected their topic
+- [x] Description of their source of data
+- [x] Questions they hope to answer with the data
 
 ### GitHub
 #### Main Branch
-- [✓] Includes a README.md
+- [x] Includes a README.md
 
 #### Communication Protocols
-- [✓] Communication Protocols added
+- [x] Communication Protocols added
 
 #### Individual Branches
 | Name | At least one branch for each team member | Each team member has at least four commits from the duration of the first segment |
@@ -142,13 +142,13 @@ Note: The descriptions and explanations required in all other project deliverabl
 
 # Machine Learning Model
 Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
-- [✓] Takes in data in from the provisional database
-- [✓] Outputs label(s) for input data
+- [x] Takes in data in from the provisional database
+- [x] Outputs label(s) for input data
 
 # Database 
 Team members present a provisional database that stands in for the final database and accomplishes the following:
-- [✓] Sample data that mimics the expected final database structure or schema
-- [✓] Draft machine learning module is connected to the provisional database
+- [x] Sample data that mimics the expected final database structure or schema
+- [x] Draft machine learning module is connected to the provisional database
 
  </p>
  </details>
@@ -158,13 +158,13 @@ Team members present a provisional database that stands in for the final databas
     
 ## Second Segment Requirements
 ### Presentation
-- [✓] Selected topic
-- [✓] Reason why they selected their topic
-- [✓] Description of their source of data
-- [✓] Questions they hope to answer with the data
-- [✓] Description of the data exploration phase of the project - Darin
+- [x] Selected topic
+- [x] Reason why they selected their topic
+- [x] Description of their source of data
+- [x] Questions they hope to answer with the data
+- [x] Description of the data exploration phase of the project - Darin
 - [ ] Description of the analysis phase of the project - JB & Alex
-- [✓] Presentations are drafted in Google Slides - Sara
+- [x] Presentations are drafted in Google Slides - Sara
 
 ### GitHub
 #### Main Branch
@@ -173,10 +173,11 @@ The main branch should include:
 - [✓] All code necessary to perform exploratory analysis
 - [ ] Some code necessary to complete the machine learning portion of the project
 
-- [✓] Includes a README.md
+- [x] Includes a README.md
 README.md must include:
-- [✓] Description of the communication protocols
-- [✓] Outline of the project (this may include images, but should be easy to follow and digest)
+- [x] Description of the communication protocols
+- [x] Outline of the project (this may include images, but should be easy to follow and digest)
+
 
 #### Individual Branches
 | Name | At least one branch for each team member | Each team member has at least four commits from the duration of the second segment |
@@ -191,26 +192,26 @@ Note: The descriptions and explanations required in all other project deliverabl
 
 # Machine Learning Model
 Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
-- [✓] Takes in data in from the provisional database
-- [✓] Outputs label(s) for input data
+- [x] Takes in data in from the provisional database
+- [x] Outputs label(s) for input data
 
-- [✓] Team members submit the code for their machine learning model, as well as the following:
-- [ ] Description of preliminary data preprocessing (Dummy Columns)
+- [x] Team members submit the code for their machine learning model, as well as the following:
+- [x] Description of preliminary data preprocessing (Dummy Columns)
 - [ ] Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (Decide to keep all or some of the features)
 - [ ] Description of how data was split into training and testing sets
 - [ ] Explanation of model choice, including limitations and benefits
 
 # Database 
 Team members present a provisional database that stands in for the final database and accomplishes the following:
-- [✓] Sample data that mimics the expected final database structure or schema
-- [✓] Draft machine learning module is connected to the provisional database 
+- [x] Sample data that mimics the expected final database structure or schema
+- [x] Draft machine learning module is connected to the provisional database 
 
 Team members present a fully integrated database.
-- [✓] Database stores static data for use during the project
+- [x] Database stores static data for use during the project
 - [ ] Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
 - [ ] Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
-- [✓] Includes at least two tables (or collections, if using MongoDB)
-- [✓] Includes at least one join using the database language (not including any joins in Pandas)
+- [x] Includes at least two tables (or collections, if using MongoDB)
+- [x] Includes at least one join using the database language (not including any joins in Pandas)
 
 
 # Dashboard - Hannah
