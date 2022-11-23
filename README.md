@@ -154,7 +154,7 @@ Team members present a provisional machine learning model that stands in for the
 - [x] Outputs label(s) for input data
 
 Team members submit the code for their machine learning model, as well as the following:
-- [ ] Description of preliminary data preprocessing (Dummy Columns)
+- [x] Description of preliminary data preprocessing (Dummy Columns)
 - [ ] Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (Decide to keep all or some of the features)
 - [ ] Description of how data was split into training and testing sets
 - [ ] Explanation of model choice, including limitations and benefits
