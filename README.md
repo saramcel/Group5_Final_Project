@@ -170,8 +170,8 @@ Team members present a provisional database that stands in for the final databas
 #### Main Branch
 - [ ] All code in the main branch is production ready
 The main branch should include:
-- [✓] All code necessary to perform exploratory analysis
-- [ ] Some code necessary to complete the machine learning portion of the project
+- [x] All code necessary to perform exploratory analysis
+- [x] Some code necessary to complete the machine learning portion of the project
 
 - [x] Includes a README.md
 README.md must include:
@@ -197,9 +197,9 @@ Team members present a provisional machine learning model that stands in for the
 
 - [x] Team members submit the code for their machine learning model, as well as the following:
 - [x] Description of preliminary data preprocessing (Dummy Columns)
-- [ ] Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (Decide to keep all or some of the features)
+- [x] Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (Decide to keep all or some of the features)
 - [ ] Description of how data was split into training and testing sets
-- [ ] Explanation of model choice, including limitations and benefits
+- [x] Explanation of model choice, including limitations and benefits
 
 # Database 
 Team members present a provisional database that stands in for the final database and accomplishes the following:
