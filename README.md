@@ -21,6 +21,37 @@
   2. What are the least contributing features in this data set?
   3. What combinations are the worst for Heart Disease outcomes?
 
+### Description of the data exploration phase of the project
+During the data exploration phase, the main goals are to obtain an overall understanding of the data, and to determine how that will affect the model chosen for analysis. 
+
+#### Data Set Overview
+The dependant variable for this analysis is the first column, HeartDisease. This is a yes or no column as to whether the respondant has Heart Disease. Overall there were no NA values and a small amout of duplicate rows. The unique identifier has already been removed from this data set to prep for Machine Learning, and the number of features has been reduced, so there is a greater chance for duplicate values. These rows should not be removed as they each represent an actual unique individual.
+ 
+![EDA_Overview](/Images/EDA_Overview.png)
+
+##### Balance
+Overall the dataset is unbalanced as there are 292,422 individuals marked no, and 27,373 that marked yes for Heart Disease. 
+
+![EDA_HeartDisease](/Images/EDA_HeartDisease.png)
+
+#### Numerical vs Categorical Data
+BMI, PhysicalHealth, MentalHealth, and SleepTime are all numerical and the remaining features are categorical or objects. All the categorical objects were Yes/No or boolean columns except for AgeCategory, Race, Diabetic, GenHealth.
+
+![EDA_ValueCounts](/Images/EDA_ValueCounts.png)
+
+#### Unique Values
+Of the 17 independant variables, BMI had the highest number of unique values with 3604, and the 9 of the columns had only two unique values. 
+
+![EDA_Unique](/Images/EDA_Unique.png)
+
+#### Correlation
+Overall, before any binning or data cleaning, the top five feature correlations are Age Category, Difficutly Walking, Stroke, Physical Health, and Diabetic. The lowest 3 were Physical Activity, Alcohol Drinking, and General Health.
+
+![EDA_Correlation](/Images/EDA_Correlation.png)
+
+### Description of the analysis phase of the project
+The descrption of the analysis phase is shared in the Machine Learning Model Section below.
+
 Click [here](https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8-WxlcsyS_BWhDxWs/edit?usp=sharing) for Google Slides Draft.
 
 
@@ -36,12 +67,13 @@ For the technology descriptions, see [technology.md file](https://github.com/Ale
 
 ## GitHub - Alex
 One challenge facing the team in this assignment is the (potentially) daunting task of collaborating via GitHub. At times, GitHub can seem overwhelming to newcomers first learning & navigating the environment. Leveraging the experience of [AlexKrumins](https://github.com/AlexKrumins), the group will use GitHub not only as a repository for storing data, code, and analyses, but also as a learning tool to develop the necessary practices for safe and secure code development.
+### Ex
 
 ## Machine Learning Model - JB
 Once the challenge of the data set selection is complete it is now time to determine the best application of machine learning for the project. Between the two choices there is supervised or unsupervised.  The following was compiled by [JBTallgrass](https://github.com/JBTallgrass), using the exsisting KU courseware and resources to develop the machine learning model portion of the project.
 
 ### Unsupervised Machine Learning
-The detailed discussion concerning the attributes of unsupervised machine learning models are outside the scope of the project however it is important to note that unsupervised machine learning best suits projects centered on transforming data to create approaches to intuitively analyze or structure whole data sets into clusters or patterns. We have rejected this model as in our dataset the categories are already known: Diagnosed with Heart Disease, or not Diagnosed with Heart Disease.
+The detailed discussion concerning the attributes of unsupervised machine learning models are outside the scope of the project however it is important to note that unsupervised machine learning best suits projects centered on transforming data to create approaches to intuitively analyze or structure whole data sets into clusters or patterns. We have rejected this model as in our dataset the categories are already known: Diagnosed with Heart Disease, or not Diagnosed with Heart Disease. This model was rejected as the groups are already defined as either having heart diesase or not having heart disease.
 
 ### Supervised Machine Learning 
 In a supervised machine learning environment the input data is refined into paired outcomes. The paired outcomes then provide a "supervised" lens that facilitates the training and test of the supervised machine learning model to predict potential coorelations using new data.
@@ -60,13 +92,22 @@ In this phase the team selected a dataset that provides cleans and paired date w
   * 3 Application Phase
 Once the model has passed the validation phase, it is now time to apply a new data set. Standard data pre-procession of the data set is required to ensure the data is cleaned and aligned to make the machine learning process effective. the final phase provides a machine learning solution to the new data set and present potential prediction of conditions relevant to the variables and environmental influences.
 
+### Preliminary Data Preprocessing (Dummy Columns)
+### Preliminary Feature Engineering and Preliminary Feature Selection (including decision-making process) 
+### How Data was Split into Training and Testing Sets
+### Model Choice (including limitations and benefits)
+
 ## Database - PostgresSQL - Sara
 The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [table1_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/main/table1_schema.png) decribes the data types for the main table. 
 
-![Schema](https://raw.githubusercontent.com/AlexKrumins/Group5_Final_Project/main/table1_schema.png?token=GHSAT0AAAAAABV3OAJTTJONC2TZEGR76D5GY3TBMFQ)
+![Schema](https://raw.githubusercontent.com/AlexKrumins/Group5_Final_Project/main/TableSchemas/all_tables_schema.png)
 
 ## Visualization - Tableau - Hannah
+### Tool Description
 We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population.
+
+### Interactive element(s) 
+
 
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
@@ -121,7 +162,7 @@ Team members present a provisional database that stands in for the final databas
 - [x] Reason why they selected their topic
 - [x] Description of their source of data
 - [x] Questions they hope to answer with the data
-- [ ] Description of the data exploration phase of the project - Darin
+- [x] Description of the data exploration phase of the project - Darin
 - [ ] Description of the analysis phase of the project - JB & Alex
 - [x] Presentations are drafted in Google Slides - Sara
 
@@ -129,13 +170,14 @@ Team members present a provisional database that stands in for the final databas
 #### Main Branch
 - [ ] All code in the main branch is production ready
 The main branch should include:
-- [ ] All code necessary to perform exploratory analysis
+- [✓] All code necessary to perform exploratory analysis
 - [ ] Some code necessary to complete the machine learning portion of the project
 
 - [x] Includes a README.md
 README.md must include:
 - [x] Description of the communication protocols
-- [ ] Outline of the project (this may include images, but should be easy to follow and digest)
+- [x] Outline of the project (this may include images, but should be easy to follow and digest)
+
 
 #### Individual Branches
 | Name | At least one branch for each team member | Each team member has at least four commits from the duration of the second segment |
@@ -144,7 +186,7 @@ README.md must include:
 | JB |✓|-|
 | Sara |✓|-|
 | Hannah |✓|-|
-| Darin |✓|-|
+| Darin |✓|✓|
 
 Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
 
@@ -153,7 +195,7 @@ Team members present a provisional machine learning model that stands in for the
 - [x] Takes in data in from the provisional database
 - [x] Outputs label(s) for input data
 
-Team members submit the code for their machine learning model, as well as the following:
+- [x] Team members submit the code for their machine learning model, as well as the following:
 - [x] Description of preliminary data preprocessing (Dummy Columns)
 - [ ] Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (Decide to keep all or some of the features)
 - [ ] Description of how data was split into training and testing sets
