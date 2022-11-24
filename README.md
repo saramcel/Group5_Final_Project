@@ -102,7 +102,8 @@ To properly train a machine learning model the datset is broken into a training 
 ![Split data into training and Testing Set](/Images/Split_data_Tg_Tt.PNG)
 
 ### Model Choice (including limitations and benefits)
-As previously mentioned the team decided on using a supervised machine learning model. Preliminary analysis suggests the team could apply the SMOTEENN model to conduct the supervised machine learning on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
+
+As previously mentioned the team decided toapply the attributes of a supervised machine learning model. Preliminary analysis suggests the team could apply the SMOTEENN model to conduct analysis on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
 
 ![SMOTEENN code](/Images/SMOTEENN_code.PNG)
 
@@ -111,6 +112,10 @@ A quick assessment determined that the dataset contains over 10 million cells th
 The team then chose to apply the suggested model that conducts and undersampling of the data to meet the time constraints. The intent on using undersampling is to apply the training and test to the dataset where there is a large amount of data. The size and quality of the data set allows undersampling techniques to present accuracy to the machine learning model. A disadvantage of undersampling is that some data is not used within the analysis. This risk is mitigated by the amount of the known classes within the dataset providing enough data points to construct solid returns on the analysis. The image below shows the team's coding to accomplish this segement of the project. 
 
 ![Undersampling code](/Images/Undersampling_code.PNG)
+
+#### Limitations of Undersampling
+
+#### Benefits of Undersampling
 
 ## Database - PostgresSQL - Sara
 The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [table1_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/main/table1_schema.png) decribes the data types for the main table. 
