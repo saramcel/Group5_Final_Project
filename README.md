@@ -142,12 +142,16 @@ The smaller tables contain the custom categories that we determined as a team ba
 
 When the tables were joined, three new columns were added to the end of the main table. Each of these new variables held the recoded categories from the smaller tables. In this way, we were able to easily recode these variables without permanently altering the original data.
 
-## Visualization - Tableau - Hannah
-### Tool Description
-We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population.
+## Visualization - Tableau - Hannah  
 
-### Interactive element(s) 
+### [Storyboard](https://docs.google.com/presentation/d/1Tq_YHoIKLA8vM0sTt9MWIpa8TwNmWDq270CLZIofgjA/edit#slide=id.g19559894a09_1_65) featured Google Slides.  
+ 
+### Summary: 
+We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population. As well as tying in interactive elements using features within Tableau. These interactive elements will include: 
+- Input of city and county locations to see personal community risk factors. 
+- Input of personal identifiers to see highest personal self-risk facors.  
 
+Within these interactive elements, a user will be able to make our dashboard fuctional for personal use at an individual and community level. 
 
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
