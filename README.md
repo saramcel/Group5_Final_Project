@@ -104,8 +104,10 @@ To properly train a machine learning model the datset is broken into a training 
 ![Split data into training and Testing Set](/Images/Split_data_Tg_Tt.PNG)
 
 ### Model Choice (including limitations and benefits)
+#### Logistic Regression Model
+As previously mentioned the team decided on using a supervised machine learning model. This regression model is a classification algorithm to predict binary outcomes centered on independent variables. The idea of binary outcomes means two answers to the query. First, this project looks at whether an individual is prone to heart disease or not to developing heart disease after considering a series of independent variables such as gender, age, sleep habits, and eating habits. The outcome is either True or False (dependent variable), the outcome the team expects
 
-As previously mentioned the team decided on using a supervised machine learning model. Preliminary analysis suggests the team could apply the SMOTEENN model to conduct the supervised machine learning on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
+Preliminary analysis suggests the team could apply the SMOTEENN model to conduct the supervised machine learning on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
 
 ![SMOTEENN code](/Images/SMOTEENN_code.PNG)
 
