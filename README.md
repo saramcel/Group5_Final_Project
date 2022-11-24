@@ -93,7 +93,7 @@ Once the model has passed the validation phase, it is now time to apply a new da
 
 ### Preliminary Data Preprocessing (Dummy Columns)
 
-All non-numeric columns require representative numeric values for the Machine Learning process. Given all the different types of data available in our database, the particular column of "PhysicalHealth" is the only qualitative piece of data. Since this is not categorical, it was removed from our inital data set. Remaining columns include:
+All non-numeric columns require representative numeric values for the Machine Learning process. Given all the different types of data available in our database, remaining columns include:
 - HeartDisease
 - BMI
 - Smoking
