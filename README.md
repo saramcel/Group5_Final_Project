@@ -67,7 +67,6 @@ For the technology descriptions, see [technology.md file](https://github.com/Ale
 
 ## GitHub - Alex
 One challenge facing the team in this assignment is the (potentially) daunting task of collaborating via GitHub. At times, GitHub can seem overwhelming to newcomers first learning & navigating the environment. Leveraging the experience of [AlexKrumins](https://github.com/AlexKrumins), the group will use GitHub not only as a repository for storing data, code, and analyses, but also as a learning tool to develop the necessary practices for safe and secure code development.
-### Ex
 
 ## Machine Learning Model - JB
 Once the challenge of the data set selection is complete it is now time to determine the best application of machine learning for the project. Between the two choices there is supervised or unsupervised.  The following was compiled by [JBTallgrass](https://github.com/JBTallgrass), using the exsisting KU courseware and resources to develop the machine learning model portion of the project.
@@ -146,6 +145,8 @@ All non-numeric columns require representative numeric values for the Machine Le
 |||||||23|Above|
 |||||||24|Above|
 
+The original data set came from the BRFSS file for 2020. The author that adjusted this dataset has already reduced the features from several hundred down to a small set of features related to heart disease risks. With this in mind we do not feel that any further reduction in feature is necessary.
+
 ### How Data was Split into Training and Testing Sets
 
 To properly train a machine learning model the datset is broken into a training set and a testing set.  the ratio can be aligned to meet a 50%  split or any ratio keeping in mind the size of the dataset.  in the cse of the heart disease dataset, there are over 300k indivduals within the dataset.  this massive set required the team to consider a smaller ratio of 20% training and 80% testing.  See the image below of the coding
@@ -205,7 +206,7 @@ We will use Tableau to funnel the findings of our ML model into geographic marke
 Within these interactive elements, a user will be able to make our dashboard fuctional for personal use at an individual and community level. 
 
 ### Interactive element(s) 
-
+The interactive elements are listed within the storyboard, linked above.
 
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
