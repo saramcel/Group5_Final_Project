@@ -103,7 +103,7 @@ To properly train a machine learning model the datset is broken into a training 
 
 ### Model Choice (including limitations and benefits)
 
-As previously mentioned the team decided toapply the attributes of a supervised machine learning model. Preliminary analysis suggests the team could apply the SMOTEENN model to conduct analysis on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
+As previously mentioned the team decided on using a supervised machine learning model. Preliminary analysis suggests the team could apply the SMOTEENN model to conduct the supervised machine learning on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
 
 ![SMOTEENN code](/Images/SMOTEENN_code.PNG)
 
@@ -152,6 +152,9 @@ We will use Tableau to funnel the findings of our ML model into geographic marke
 - Input of personal identifiers to see highest personal self-risk facors.  
 
 Within these interactive elements, a user will be able to make our dashboard fuctional for personal use at an individual and community level. 
+
+### Interactive element(s) 
+
 
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
@@ -222,7 +225,6 @@ README.md must include:
 - [x] Description of the communication protocols
 - [x] Outline of the project (this may include images, but should be easy to follow and digest)
 
-
 #### Individual Branches
 | Name | At least one branch for each team member | Each team member has at least four commits from the duration of the second segment |
 | --- | --- | --- |
@@ -242,7 +244,7 @@ Team members present a provisional machine learning model that stands in for the
 - [x] Team members submit the code for their machine learning model, as well as the following:
 - [x] Description of preliminary data preprocessing (Dummy Columns)
 - [x] Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (Decide to keep all or some of the features)
-- [ ] Description of how data was split into training and testing sets
+- [x] Description of how data was split into training and testing sets
 - [x] Explanation of model choice, including limitations and benefits
 
 # Database 
