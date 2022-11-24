@@ -120,9 +120,27 @@ A limitation of random undersamoling is the random loss of data without human co
 A huge advantage of applying random sampling is correcting the imbalance of the dataset and reducing the skew toward the majority classes within the dataset
 
 ## Database - PostgresSQL - Sara
-The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [table1_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/main/table1_schema.png) decribes the data types for the main table. 
+The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [all_tables_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/ed813a1c75cdc1ce08a91933a98e4c18a56b7856/TableSchemas/all_tables_schema.png) decribes the data types for the main table and its relationship with the other three tables. 
 
-![Schema](https://raw.githubusercontent.com/AlexKrumins/Group5_Final_Project/main/TableSchemas/all_tables_schema.png)
+![Schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/ed813a1c75cdc1ce08a91933a98e4c18a56b7856/TableSchemas/all_tables_schema.png)
+
+The smaller tables contain the custom categories that we determined as a team based on additional research. 
+
+  * **Age Categories:** There were thirteen categories in the AgeCategory variable, and we did not have a logical reason to examine so many different categories separately (i.e. would there be any meaningful difference between the 18-24 group and the 25-29 group? Probably not). We researched how age interacted with heart disease risk, and we created three risk categories. 
+    * The Low Risk category goes from age 18 to 44, because monitoring involves routine tests of blood pressure and cholesterol. 
+    * The Medium Risk category includes ages 45 to 64, because the [American Heart Association](https://www.radiologyinfo.org/en/info/screening-cardiac#:~:text=Screening%20Recommendations,these%20screening%20tests%20more%20often) recommends starting to test blood glucose at age 45 because diabetes is a risk factor for heart disease. 
+    * The High Risk category includes age 65 and up, because this group is [much more likely](https://www.nia.nih.gov/health/heart-health-and-aging) to experience heart attack, stroke, or coronary heart disease. 
+
+  * **Sleep Time:** There were twenty-four sleep time categories, each representing the number of hours of sleep reported by the individual. We decided to re-categorize the sleep time into three groups based on the [Sleep Foundation's recommendations](https://www.sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need) for adults. The recommended hours of sleep are between 7 and 9 hours for adults from 18 to 64 years old, and they only change slightly after that (7-8 hours for adults 65+).
+    * The Below category refers to sleep time between 1 and 6 hours.
+    * The Meets category refers to sleep time between 7 and 9 hours.
+    * The Above category refers to sleep time between 10 and 24 hours.
+
+  * **Diabetic:** This variable originally had four categories, and we reduced the complexity to two categories. We based this on our examination of the frequencies of each category. Two categories, "No, borderline diabetes" and "Yes, during pregnancy," had so few people that we collapsed them into the "No" category. 
+    * Yes: They have been told be a doctor that they have diabetes.
+    * No: They have not been told by a doctor that they have diabetes, *or* they had diabetes in pregnancy, *or* they are borderline diabetic. 
+
+When the tables were joined, three new columns were added to the end of the main table. Each of these new variables held the recoded categories from the smaller tables. In this way, we were able to easily recode these variables without permanently altering the original data.
 
 ## Visualization - Tableau - Hannah
 ### Tool Description
