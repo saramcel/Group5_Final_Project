@@ -109,13 +109,15 @@ As previously mentioned the team decided toapply the attributes of a supervised 
 
 A quick assessment determined that the dataset contains over 10 million cells that require analysis; therefore, the amount of time to produce a second segment appropriate data return proved unsatisfactory and prohibitive to the overall project timeline. In essence, the team determined that the advantage of SMOTEENN is its ability to process a dataset with successful returns. The downside of applying the SMOTEENN is the limitations of process time in conjunction with the project milestones and objectives. 
 
-The team then chose to apply the suggested model that conducts and undersampling of the data to meet the time constraints. The intent on using undersampling is to apply the training and test to the dataset where there is a large amount of data. The size and quality of the data set allows undersampling techniques to present accuracy to the machine learning model. A disadvantage of undersampling is that some data is not used within the analysis. This risk is mitigated by the amount of the known classes within the dataset providing enough data points to construct solid returns on the analysis. The image below shows the team's coding to accomplish this segement of the project. 
+The team then chose to apply the suggested model that conducts and undersampling of the data to meet the time constraints. The intent on using undersampling is to apply the training and test to the dataset where there is a large amount of data. The size and quality of the data set allows undersampling techniques to present accuracy to the machine learning model. A disadvantage of undersampling is that some data is not used within the analysis. This risk is mitigated by the amount of the known classes within the dataset providing enough data points to construct solid returns on the analysis. The image below shows the team's coding to accomplish this segement of the project.  
 
-![Undersampling code](/Images/Undersampling_code.PNG)
+![Random Undersampling code](/Images/Undersampling_code.PNG)
 
 #### Limitations of Undersampling
+A limitation of random undersamoling is the random loss of data without human consideration. 
 
 #### Benefits of Undersampling
+A huge advantage of applying random sampling is correcting the imbalance of the dataset and reducing the skew toward the majority classes within the dataset
 
 ## Database - PostgresSQL - Sara
 The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [table1_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/main/table1_schema.png) decribes the data types for the main table. 
