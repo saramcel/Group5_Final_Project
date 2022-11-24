@@ -264,7 +264,7 @@ Team members present a provisional database that stands in for the final databas
 - [x] Description of their source of data
 - [x] Questions they hope to answer with the data
 - [x] Description of the data exploration phase of the project - Darin
-- [ ] Description of the analysis phase of the project - JB & Alex
+- [x] Description of the analysis phase of the project - JB & Alex
 - [x] Presentations are drafted in Google Slides - Sara
 
 ### GitHub
@@ -308,17 +308,17 @@ Team members present a provisional database that stands in for the final databas
 
 Team members present a fully integrated database.
 - [x] Database stores static data for use during the project
-- [ ] Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
-- [ ] Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
+- [x] Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+- [x] Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
 - [x] Includes at least two tables (or collections, if using MongoDB)
 - [x] Includes at least one join using the database language (not including any joins in Pandas)
 
 
 # Dashboard - Hannah
 A blueprint for the dashboard is created and includes all of the following:
-- [ ] Storyboard on Google Slide(s)
-- [ ] Description of the tool(s) that will be used to create final dashboard
-- [ ] Description of interactive element(s) 
+- [x] Storyboard on Google Slide(s)
+- [x] Description of the tool(s) that will be used to create final dashboard
+- [x] Description of interactive element(s) 
 
  </p>
  </details>
