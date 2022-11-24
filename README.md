@@ -94,8 +94,23 @@ Once the model has passed the validation phase, it is now time to apply a new da
 
 ### Preliminary Data Preprocessing (Dummy Columns)
 ### Preliminary Feature Engineering and Preliminary Feature Selection (including decision-making process) 
+
 ### How Data was Split into Training and Testing Sets
+
+To properly train a machine learning model the datset is broken into a training set and a testing set.  the ratio can be aligned to meet a 50%  split or any ratio keeping in mind the size of the dataset.  in the cse of the heart disease dataset, there are over 300k indivduals within the dataset.  this massive set required the team to consider a smaller ratio of 20% training and 80% testing.  See the image below of the coding
+
+![Split data into training and Testing Set](/Images/Split_data_Tg_Tt.PNG)
+
 ### Model Choice (including limitations and benefits)
+As previously mentioned the team decided on using a supervised machine learning model. Preliminary analysis suggests the team could apply the SMOTEENN model to conduct the supervised machine learning on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
+
+![SMOTEENN code](/Images/SMOTEENN_code.PNG)
+
+A quick assessment determined that the dataset contains over 10 million cells that require analysis; therefore, the amount of time to produce a second segment appropriate data return proved unsatisfactory and prohibitive to the overall project timeline. In essence, the team determined that the advantage of SMOTEENN is its ability to process a dataset with successful returns. The downside of applying the SMOTEENN is the limitations of process time in conjunction with the project milestones and objectives. 
+
+The team then chose to apply the suggested model that conducts and undersampling of the data to meet the time constraints. The intent on using undersampling is to apply the training and test to the dataset where there is a large amount of data. The size and quality of the data set allows undersampling techniques to present accuracy to the machine learning model. A disadvantage of undersampling is that some data is not used within the analysis.  this risk is mitigated by the amount of the known classes with in the dataset providing enough data points to construct solid returns on the analysis. The image below shows the team's coding to accomplish this segement of the project. 
+
+![Undersampling code](/Images/Undersampling_code.PNG)
 
 ## Database - PostgresSQL - Sara
 The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [table1_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/main/table1_schema.png) decribes the data types for the main table. 
