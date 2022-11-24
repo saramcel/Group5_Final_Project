@@ -228,10 +228,10 @@ README.md must include:
 #### Individual Branches
 | Name | At least one branch for each team member | Each team member has at least four commits from the duration of the second segment |
 | --- | --- | --- |
-| Alex |✓|-|
-| JB |✓|-|
-| Sara |✓|-|
-| Hannah |✓|-|
+| Alex |✓|✓|
+| JB |✓|✓|
+| Sara |✓|✓|
+| Hannah |✓|✓|
 | Darin |✓|✓|
 
 Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
