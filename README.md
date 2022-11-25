@@ -1,3 +1,10 @@
+<style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+</style>
+
 # Personal Key Indicators of Heart Disease
 ## Group5_Final_Project
 ### Contributors
@@ -115,6 +122,66 @@ All non-numeric columns require representative numeric values for the Machine Le
 #### AgeCategory | Diabetic | SleepTime
 
 - AgeCategory for the original database had 13 different groupings with a span of 5 years each. To highlight the particular risk correlated with Heart Disease and increased age, the groupings were split into the following AgeRisk Bins.
+  <details><summary>Expand to see the AgeCategory -> AgeRisk bins</summary>
+    <p>
+      <table>
+        <tr>
+          <th>AgeCategory</th>
+          <th>AgeRisk</th>
+        </tr>
+        <tr>
+          <td>18-24</td>
+          <td>Low Risk</td>
+        </tr>
+        <tr>
+          <td>25-29</td>
+          <td>Low Risk</td>
+        </tr>
+        <tr>
+          <td>30-34</td>
+          <td>Low Risk</td>
+        </tr>
+          <td>35-39</td>
+          <td>Low Risk</td>
+        <tr>
+          <td>40-44</td>
+          <td>Low Risk</td>
+        </tr>
+        <tr>
+          <td>45-49</td>
+          <td>Medium Risk</td>
+        </tr>
+        <tr>
+          <td>50-54</td>
+          <td>Medium Risk</td>
+        </tr>
+        <tr>
+          <td>55-59</td>
+          <td>Medium Risk</td>
+        </tr>
+        <tr>
+          <td>60-64</td>
+          <td>Medium Risk</td>
+        </tr>
+        <tr>
+          <td>65-69</td>
+          <td>High Risk</td>
+        </tr>
+        <tr>
+          <td>70-74</td>
+          <td>High Risk</td>
+        </tr>
+        <tr>
+          <td>75-79</td>
+          <td>High Risk</td>
+        </tr>
+        <tr>
+          <td>80 or older</td>
+          <td>High Risk</td>
+        </tr>
+      </table>
+    </p>
+  </details>
 - The Diabetic column for the original database had 4 different groupings with a spectrum of statuses in regards to diabetes. To reduce the confusing and potenitally flucuating degrees of diabetes. The groupings were reduced into the following Diabetes Bins.
 - The SleepTime data for the original database had no groupings at all. Many rows show the recommended allotment of slee per day (between 7-9 hours). However some of the entries show patients who are recorded as sleeping up to 24 hours! To limit any outliers or significant deviations, groupings were reduced into the following three Recommended Sleep bins.
 
