@@ -93,7 +93,57 @@ Once the model has passed the validation phase, it is now time to apply a new da
 
 ### Preliminary Data Preprocessing (Dummy Columns)
 
+All non-numeric columns require representative numeric values for the Machine Learning process. Given all the different types of data available in our database, remaining columns include:
+- HeartDisease
+- BMI
+- Smoking
+- AlcoholDrinking
+- Stroke
+- MentalHealth
+- DiffWalking
+- Sex
+- AgeCategory
+- Race
+- Diabetic
+- PhysicalActivity
+- SleepTime
+- Asthma
+- KidneyDisease
+- SkinCance
+
 ### Preliminary Feature Engineering and Preliminary Feature Selection (including decision-making process) 
+#### AgeCategory | Diabetic | SleepTime
+
+- AgeCategory for the original database had 13 different groupings with a span of 5 years each. To highlight the particular risk correlated with Heart Disease and increased age, the groupings were split into the following AgeRisk Bins.
+- The Diabetic column for the original database had 4 different groupings with a spectrum of statuses in regards to diabetes. To reduce the confusing and potenitally flucuating degrees of diabetes. The groupings were reduced into the following Diabetes Bins.
+- The SleepTime data for the original database had no groupings at all. Many rows show the recommended allotment of slee per day (between 7-9 hours). However some of the entries show patients who are recorded as sleeping up to 24 hours! To limit any outliers or significant deviations, groupings were reduced into the following three Recommended Sleep bins.
+
+| AgeCategory|AgeRisk|Diabetic|Diabetes Bin|SleepTime|Recommended Sleep|
+|:------------|:-------|:------------|:-------|------------:|:-------|
+| 18-24|Low Risk|No|No|1|Below|
+| 25-29|Low Risk|Yes|Yes|2|Below|
+| 30-34|Low Risk|"No, borderline diabetes"|No|3|Below|
+| 35-39|Low Risk|Yes (during pregnancy)|No|4|Below|
+| 40-44|Low Risk|||5|Below|
+| 45-49|Medium Risk|||6|Below|
+| 50-54|Medium Risk|||7|Meets|
+| 55-59|Medium Risk|||8|Meets|
+| 60-64|Medium Risk|||9|Meets|
+| 65-69|High Risk|||10|Above|
+| 70-74|High Risk|||11|Above|
+| 75-79|High Risk|||12|Above|
+| 80 or older|High Risk|||13|Above|
+|||||14|Above|
+|||||15|Above|
+|||||16|Above|
+|||||17|Above|
+|||||18|Above|
+|||||19|Above|
+|||||20|Above|
+|||||21|Above|
+|||||22|Above|
+|||||23|Above|
+|||||24|Above|
 
 The original data set came from the BRFSS file for 2020. The author that adjusted this dataset has already reduced the features from several hundred down to a small set of features related to heart disease risks. With this in mind we do not feel that any further reduction in feature is necessary.
 
@@ -105,7 +155,10 @@ To properly train a machine learning model the datset is broken into a training 
 
 ### Model Choice (including limitations and benefits)
 
-As previously mentioned the team decided on using a supervised machine learning model. Preliminary analysis suggests the team could apply the SMOTEENN model to conduct the supervised machine learning on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
+#### Logistic Regression Model
+As previously mentioned, the team used a supervised machine-learning model. More specifically, the model is a logistic regression model. This regression model is a classification algorithm to predict binary outcomes centered on independent variables. The idea of binary outcomes means two answers to the query. First, this project looks at whether an individual is prone to heart disease or not to developing heart disease after considering a series of independent variables such as gender, age, sleep habits, and eating habits. The outcome is either True or False (dependent variable). The outcome the team expects is the likihood of conditons being likely or unlikely.. 
+
+Preliminary analysis suggests the team could apply the SMOTEENN model to conduct the supervised machine learning on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
 
 ![SMOTEENN code](/Images/SMOTEENN_code.PNG)
 
@@ -230,10 +283,10 @@ README.md must include:
 #### Individual Branches
 | Name | At least one branch for each team member | Each team member has at least four commits from the duration of the second segment |
 | --- | --- | --- |
-| Alex |✓|-|
-| JB |✓|-|
-| Sara |✓|-|
-| Hannah |✓|-|
+| Alex |✓|✓|
+| JB |✓|✓|
+| Sara |✓|✓|
+| Hannah |✓|✓|
 | Darin |✓|✓|
 
 Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
