@@ -211,6 +211,9 @@ Within these interactive elements, a user will be able to make our dashboard fuc
 ### Interactive element(s) 
 The interactive elements are listed within the storyboard, linked above.
 
+### Online Dashboard:  NOT FINAL LINK. 
+Initial link drop of the [Heart Disease Dashboard](https://public.tableau.com/views/HeartDiseaseDashboard_16695909016350/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) featured on Tableau Public. Further group input needed prior to commit. 
+
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
 
