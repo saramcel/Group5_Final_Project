@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="USA_Counties__Generalized_" id="USA_Counties__Generalized_">
+	<SimpleField name="FID" type="int"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="STATE_NAME" type="string"></SimpleField>
+	<SimpleField name="STATE_FIPS" type="string"></SimpleField>
+	<SimpleField name="CNTY_FIPS" type="string"></SimpleField>
+	<SimpleField name="FIPS" type="string"></SimpleField>
+	<SimpleField name="POPULATION" type="int"></SimpleField>
+	<SimpleField name="POP_SQMI" type="float"></SimpleField>
+	<SimpleField name="POP2010" type="int"></SimpleField>
+	<SimpleField name="POP10_SQMI" type="float"></SimpleField>
+	<SimpleField name="WHITE" type="int"></SimpleField>
+	<SimpleField name="BLACK" type="int"></SimpleField>
+	<SimpleField name="AMERI_ES" type="int"></SimpleField>
+	<SimpleField name="ASIAN" type="int"></SimpleField>
+	<SimpleField name="HAWN_PI" type="int"></SimpleField>
+	<SimpleField name="HISPANIC" type="int"></SimpleField>
+	<SimpleField name="OTHER" type="int"></SimpleField>
+	<SimpleField name="MULT_RACE" type="int"></SimpleField>
+	<SimpleField name="MALES" type="int"></SimpleField>
+	<SimpleField name="FEMALES" type="int"></SimpleField>
+	<SimpleField name="AGE_UNDER5" type="int"></SimpleField>
+	<SimpleField name="AGE_5_9" type="int"></SimpleField>
+	<SimpleField name="AGE_10_14" type="int"></SimpleField>
+	<SimpleField name="AGE_15_19" type="int"></SimpleField>
+	<SimpleField name="AGE_20_24" type="int"></SimpleField>
+	<SimpleField name="AGE_25_34" type="int"></SimpleField>
+	<SimpleField name="AGE_35_44" type="int"></SimpleField>
+	<SimpleField name="AGE_45_54" type="int"></SimpleField>
+	<SimpleField name="AGE_55_64" type="int"></SimpleField>
+	<SimpleField name="AGE_65_74" type="int"></SimpleField>
+	<SimpleField name="AGE_75_84" type="int"></SimpleField>
+	<SimpleField name="AGE_85_UP" type="int"></SimpleField>
+	<SimpleField name="MED_AGE" type="float"></SimpleField>
+	<SimpleField name="MED_AGE_M" type="float"></SimpleField>
+	<SimpleField name="MED_AGE_F" type="float"></SimpleField>
+	<SimpleField name="HOUSEHOLDS" type="int"></SimpleField>
+	<SimpleField name="AVE_HH_SZ" type="float"></SimpleField>
+	<SimpleField name="HSEHLD_1_M" type="int"></SimpleField>
+	<SimpleField name="HSEHLD_1_F" type="int"></SimpleField>
+	<SimpleField name="MARHH_CHD" type="int"></SimpleField>
+	<SimpleField name="MARHH_NO_C" type="int"></SimpleField>
+	<SimpleField name="MHH_CHILD" type="int"></SimpleField>
+	<SimpleField name="FHH_CHILD" type="int"></SimpleField>
+	<SimpleField name="FAMILIES" type="int"></SimpleField>
+	<SimpleField name="AVE_FAM_SZ" type="float"></SimpleField>
+	<SimpleField name="HSE_UNITS" type="int"></SimpleField>
+	<SimpleField name="VACANT" type="int"></SimpleField>
+	<SimpleField name="OWNER_OCC" type="int"></SimpleField>
+	<SimpleField name="RENTER_OCC" type="int"></SimpleField>
+	<SimpleField name="NO_FARMS12" type="int"></SimpleField>
+	<SimpleField name="AVE_SIZE12" type="int"></SimpleField>
+	<SimpleField name="CROP_ACR12" type="int"></SimpleField>
+	<SimpleField name="AVE_SALE12" type="int"></SimpleField>
+	<SimpleField name="SQMI" type="float"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="Shape_Area" type="float"></SimpleField>
+	<SimpleField name="Shape__Area" type="float"></SimpleField>
+	<SimpleField name="Shape__Length" type="float"></SimpleField>
+	<SimpleField name="GlobalID" type="string"></SimpleField>
+</Schema>
+<Folder><name>USA_Counties__Generalized_</name>
+  <Placemark>
+	<name>Johnson</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#USA_Counties__Generalized_">
+		<SimpleData name="FID">992</SimpleData>
+		<SimpleData name="OBJECTID">577</SimpleData>
+		<SimpleData name="STATE_NAME">Kansas</SimpleData>
+		<SimpleData name="STATE_FIPS">20</SimpleData>
+		<SimpleData name="CNTY_FIPS">091</SimpleData>
+		<SimpleData name="FIPS">20091</SimpleData>
+		<SimpleData name="POPULATION">594874</SimpleData>
+		<SimpleData name="POP_SQMI">1240.5</SimpleData>
+		<SimpleData name="POP2010">544179</SimpleData>
+		<SimpleData name="POP10_SQMI">1134.8</SimpleData>
+		<SimpleData name="WHITE">468052</SimpleData>
+		<SimpleData name="BLACK">23636</SimpleData>
+		<SimpleData name="AMERI_ES">2014</SimpleData>
+		<SimpleData name="ASIAN">22743</SimpleData>
+		<SimpleData name="HAWN_PI">299</SimpleData>
+		<SimpleData name="HISPANIC">38949</SimpleData>
+		<SimpleData name="OTHER">13797</SimpleData>
+		<SimpleData name="MULT_RACE">13638</SimpleData>
+		<SimpleData name="MALES">265733</SimpleData>
+		<SimpleData name="FEMALES">278446</SimpleData>
+		<SimpleData name="AGE_UNDER5">39180</SimpleData>
+		<SimpleData name="AGE_5_9">40744</SimpleData>
+		<SimpleData name="AGE_10_14">40024</SimpleData>
+		<SimpleData name="AGE_15_19">34414</SimpleData>
+		<SimpleData name="AGE_20_24">27890</SimpleData>
+		<SimpleData name="AGE_25_34">79236</SimpleData>
+		<SimpleData name="AGE_35_44">78036</SimpleData>
+		<SimpleData name="AGE_45_54">81839</SimpleData>
+		<SimpleData name="AGE_55_64">63494</SimpleData>
+		<SimpleData name="AGE_65_74">31156</SimpleData>
+		<SimpleData name="AGE_75_84">18834</SimpleData>
+		<SimpleData name="AGE_85_UP">9332</SimpleData>
+		<SimpleData name="MED_AGE">36.4</SimpleData>
+		<SimpleData name="MED_AGE_M">35.2</SimpleData>
+		<SimpleData name="MED_AGE_F">37.5</SimpleData>
+		<SimpleData name="HOUSEHOLDS">212882</SimpleData>
+		<SimpleData name="AVE_HH_SZ">2.53</SimpleData>
+		<SimpleData name="HSEHLD_1_M">22478</SimpleData>
+		<SimpleData name="HSEHLD_1_F">32410</SimpleData>
+		<SimpleData name="MARHH_CHD">58277</SimpleData>
+		<SimpleData name="MARHH_NO_C">60853</SimpleData>
+		<SimpleData name="MHH_CHILD">4575</SimpleData>
+		<SimpleData name="FHH_CHILD">12534</SimpleData>
+		<SimpleData name="FAMILIES">145262</SimpleData>
+		<SimpleData name="AVE_FAM_SZ">3.08</SimpleData>
+		<SimpleData name="HSE_UNITS">226571</SimpleData>
+		<SimpleData name="VACANT">13689</SimpleData>
+		<SimpleData name="OWNER_OCC">150722</SimpleData>
+		<SimpleData name="RENTER_OCC">62160</SimpleData>
+		<SimpleData name="NO_FARMS12">571</SimpleData>
+		<SimpleData name="AVE_SIZE12">174</SimpleData>
+		<SimpleData name="CROP_ACR12">59216</SimpleData>
+		<SimpleData name="AVE_SALE12">42679</SimpleData>
+		<SimpleData name="SQMI">479.55</SimpleData>
+		<SimpleData name="Shape_Leng">1.4789087623</SimpleData>
+		<SimpleData name="Shape_Area">0.127132424089</SimpleData>
+		<SimpleData name="Shape__Area">2023805323.55078</SimpleData>
+		<SimpleData name="Shape__Length">184418.23895209</SimpleData>
+		<SimpleData name="GlobalID">869cc0f2-440f-4618-9820-d1fa380d2ec8</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.613148203235,38.7372224136036 -95.0543000064604,38.7338914138656 -95.0519358773152,38.9745328849099 -95.0371346861784,38.9742164140329 -95.0170157067822,38.9936063033776 -94.9512102787422,38.9796986801177 -94.9339598962275,38.9933246966191 -94.9166557929238,38.9878623232854 -94.9049824778861,38.992237796067 -94.8841229079416,39.0388339236437 -94.8687262811752,39.0448268221456 -94.6092813943169,39.0446676801363 -94.612469622122,38.8371088903452 -94.613148203235,38.7372224136036</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Leavenworth</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#USA_Counties__Generalized_">
+		<SimpleData name="FID">998</SimpleData>
+		<SimpleData name="OBJECTID">583</SimpleData>
+		<SimpleData name="STATE_NAME">Kansas</SimpleData>
+		<SimpleData name="STATE_FIPS">20</SimpleData>
+		<SimpleData name="CNTY_FIPS">103</SimpleData>
+		<SimpleData name="FIPS">20103</SimpleData>
+		<SimpleData name="POPULATION">80643</SimpleData>
+		<SimpleData name="POP_SQMI">171.8</SimpleData>
+		<SimpleData name="POP2010">76227</SimpleData>
+		<SimpleData name="POP10_SQMI">162.4</SimpleData>
+		<SimpleData name="WHITE">63879</SimpleData>
+		<SimpleData name="BLACK">7171</SimpleData>
+		<SimpleData name="AMERI_ES">584</SimpleData>
+		<SimpleData name="ASIAN">965</SimpleData>
+		<SimpleData name="HAWN_PI">101</SimpleData>
+		<SimpleData name="HISPANIC">4308</SimpleData>
+		<SimpleData name="OTHER">1015</SimpleData>
+		<SimpleData name="MULT_RACE">2512</SimpleData>
+		<SimpleData name="MALES">40466</SimpleData>
+		<SimpleData name="FEMALES">35761</SimpleData>
+		<SimpleData name="AGE_UNDER5">5187</SimpleData>
+		<SimpleData name="AGE_5_9">5491</SimpleData>
+		<SimpleData name="AGE_10_14">5294</SimpleData>
+		<SimpleData name="AGE_15_19">4926</SimpleData>
+		<SimpleData name="AGE_20_24">4166</SimpleData>
+		<SimpleData name="AGE_25_34">10267</SimpleData>
+		<SimpleData name="AGE_35_44">11376</SimpleData>
+		<SimpleData name="AGE_45_54">11990</SimpleData>
+		<SimpleData name="AGE_55_64">9104</SimpleData>
+		<SimpleData name="AGE_65_74">4785</SimpleData>
+		<SimpleData name="AGE_75_84">2626</SimpleData>
+		<SimpleData name="AGE_85_UP">1015</SimpleData>
+		<SimpleData name="MED_AGE">37.3</SimpleData>
+		<SimpleData name="MED_AGE_M">36.7</SimpleData>
+		<SimpleData name="MED_AGE_F">38.2</SimpleData>
+		<SimpleData name="HOUSEHOLDS">26447</SimpleData>
+		<SimpleData name="AVE_HH_SZ">2.63</SimpleData>
+		<SimpleData name="HSEHLD_1_M">2855</SimpleData>
+		<SimpleData name="HSEHLD_1_F">3165</SimpleData>
+		<SimpleData name="MARHH_CHD">6958</SimpleData>
+		<SimpleData name="MARHH_NO_C">8394</SimpleData>
+		<SimpleData name="MHH_CHILD">742</SimpleData>
+		<SimpleData name="FHH_CHILD">1999</SimpleData>
+		<SimpleData name="FAMILIES">19309</SimpleData>
+		<SimpleData name="AVE_FAM_SZ">3.1</SimpleData>
+		<SimpleData name="HSE_UNITS">28697</SimpleData>
+		<SimpleData name="VACANT">2250</SimpleData>
+		<SimpleData name="OWNER_OCC">17907</SimpleData>
+		<SimpleData name="RENTER_OCC">8540</SimpleData>
+		<SimpleData name="NO_FARMS12">1133</SimpleData>
+		<SimpleData name="AVE_SIZE12">163</SimpleData>
+		<SimpleData name="CROP_ACR12">102477</SimpleData>
+		<SimpleData name="AVE_SALE12">32098</SimpleData>
+		<SimpleData name="SQMI">469.31</SimpleData>
+		<SimpleData name="Shape_Leng">1.59542511882</SimpleData>
+		<SimpleData name="Shape_Area">0.123711272218</SimpleData>
+		<SimpleData name="Shape__Area">1978116519.21875</SimpleData>
+		<SimpleData name="Shape__Length">206061.749399977</SimpleData>
+		<SimpleData name="GlobalID">bc067b58-25c5-4cd6-9b97-b010bc910d62</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.9049824778861,38.992237796067 -94.9166557929238,38.9878623232854 -94.9339598962275,38.9933246966191 -94.9512102787422,38.9796986801177 -95.0170157067822,38.9936063033776 -95.0371346861784,38.9742164140329 -95.0519358773152,38.9745328849099 -95.0740921023676,38.9788623039005 -95.1001774047934,38.9588620075586 -95.1272165231941,38.9684327002423 -95.1596496854004,38.9705495169031 -95.1791735917952,38.9642820051879 -95.1817062912848,39.0375420863115 -95.169741423113,39.4130686877502 -94.9584938748874,39.4114472213149 -94.925748023499,39.3812660843123 -94.8982816253809,39.380640705948 -94.9113434958925,39.3401217102412 -94.9076814165384,39.3230285011823 -94.8811078092364,39.2860459082299 -94.8334765851471,39.2617659765794 -94.8208193041838,39.2110045970134 -94.7900493106646,39.1968830230703 -94.9029593229286,39.1974965901139 -94.9049824778861,38.992237796067</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Miami</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#USA_Counties__Generalized_">
+		<SimpleData name="FID">1007</SimpleData>
+		<SimpleData name="OBJECTID">592</SimpleData>
+		<SimpleData name="STATE_NAME">Kansas</SimpleData>
+		<SimpleData name="STATE_FIPS">20</SimpleData>
+		<SimpleData name="CNTY_FIPS">121</SimpleData>
+		<SimpleData name="FIPS">20121</SimpleData>
+		<SimpleData name="POPULATION">33090</SimpleData>
+		<SimpleData name="POP_SQMI">56.1</SimpleData>
+		<SimpleData name="POP2010">32787</SimpleData>
+		<SimpleData name="POP10_SQMI">55.5</SimpleData>
+		<SimpleData name="WHITE">31225</SimpleData>
+		<SimpleData name="BLACK">426</SimpleData>
+		<SimpleData name="AMERI_ES">192</SimpleData>
+		<SimpleData name="ASIAN">116</SimpleData>
+		<SimpleData name="HAWN_PI">9</SimpleData>
+		<SimpleData name="HISPANIC">828</SimpleData>
+		<SimpleData name="OTHER">212</SimpleData>
+		<SimpleData name="MULT_RACE">607</SimpleData>
+		<SimpleData name="MALES">16201</SimpleData>
+		<SimpleData name="FEMALES">16586</SimpleData>
+		<SimpleData name="AGE_UNDER5">2140</SimpleData>
+		<SimpleData name="AGE_5_9">2523</SimpleData>
+		<SimpleData name="AGE_10_14">2652</SimpleData>
+		<SimpleData name="AGE_15_19">2285</SimpleData>
+		<SimpleData name="AGE_20_24">1389</SimpleData>
+		<SimpleData name="AGE_25_34">3569</SimpleData>
+		<SimpleData name="AGE_35_44">4461</SimpleData>
+		<SimpleData name="AGE_45_54">5500</SimpleData>
+		<SimpleData name="AGE_55_64">3981</SimpleData>
+		<SimpleData name="AGE_65_74">2342</SimpleData>
+		<SimpleData name="AGE_75_84">1391</SimpleData>
+		<SimpleData name="AGE_85_UP">554</SimpleData>
+		<SimpleData name="MED_AGE">39.4</SimpleData>
+		<SimpleData name="MED_AGE_M">38.7</SimpleData>
+		<SimpleData name="MED_AGE_F">40.2</SimpleData>
+		<SimpleData name="HOUSEHOLDS">12161</SimpleData>
+		<SimpleData name="AVE_HH_SZ">2.64</SimpleData>
+		<SimpleData name="HSEHLD_1_M">1130</SimpleData>
+		<SimpleData name="HSEHLD_1_F">1455</SimpleData>
+		<SimpleData name="MARHH_CHD">3275</SimpleData>
+		<SimpleData name="MARHH_NO_C">4203</SimpleData>
+		<SimpleData name="MHH_CHILD">328</SimpleData>
+		<SimpleData name="FHH_CHILD">758</SimpleData>
+		<SimpleData name="FAMILIES">9046</SimpleData>
+		<SimpleData name="AVE_FAM_SZ">3.07</SimpleData>
+		<SimpleData name="HSE_UNITS">13190</SimpleData>
+		<SimpleData name="VACANT">1029</SimpleData>
+		<SimpleData name="OWNER_OCC">9540</SimpleData>
+		<SimpleData name="RENTER_OCC">2621</SimpleData>
+		<SimpleData name="NO_FARMS12">1305</SimpleData>
+		<SimpleData name="AVE_SIZE12">227</SimpleData>
+		<SimpleData name="CROP_ACR12">166460</SimpleData>
+		<SimpleData name="AVE_SALE12">39090</SimpleData>
+		<SimpleData name="SQMI">590.25</SimpleData>
+		<SimpleData name="Shape_Leng">1.57492223088</SimpleData>
+		<SimpleData name="Shape_Area">0.152488899064</SimpleData>
+		<SimpleData name="Shape__Area">2416670591.80469</SimpleData>
+		<SimpleData name="Shape__Length">196785.515719268</SimpleData>
+		<SimpleData name="GlobalID">a77817cb-21ea-427e-b531-87459b1b9eb5</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-95.0612287967393,38.3876493769183 -95.0543000064604,38.7338914138656 -94.613148203235,38.7372224136036 -94.6187177073223,38.4714737003986 -94.6190535011061,38.3920319986575 -95.0612287967393,38.3876493769183</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Wyandotte</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#USA_Counties__Generalized_">
+		<SimpleData name="FID">1051</SimpleData>
+		<SimpleData name="OBJECTID">636</SimpleData>
+		<SimpleData name="STATE_NAME">Kansas</SimpleData>
+		<SimpleData name="STATE_FIPS">20</SimpleData>
+		<SimpleData name="CNTY_FIPS">209</SimpleData>
+		<SimpleData name="FIPS">20209</SimpleData>
+		<SimpleData name="POPULATION">166945</SimpleData>
+		<SimpleData name="POP_SQMI">1069.5</SimpleData>
+		<SimpleData name="POP2010">157505</SimpleData>
+		<SimpleData name="POP10_SQMI">1009</SimpleData>
+		<SimpleData name="WHITE">86056</SimpleData>
+		<SimpleData name="BLACK">39742</SimpleData>
+		<SimpleData name="AMERI_ES">1297</SimpleData>
+		<SimpleData name="ASIAN">3958</SimpleData>
+		<SimpleData name="HAWN_PI">169</SimpleData>
+		<SimpleData name="HISPANIC">41633</SimpleData>
+		<SimpleData name="OTHER">20378</SimpleData>
+		<SimpleData name="MULT_RACE">5905</SimpleData>
+		<SimpleData name="MALES">77702</SimpleData>
+		<SimpleData name="FEMALES">79803</SimpleData>
+		<SimpleData name="AGE_UNDER5">13712</SimpleData>
+		<SimpleData name="AGE_5_9">12424</SimpleData>
+		<SimpleData name="AGE_10_14">11401</SimpleData>
+		<SimpleData name="AGE_15_19">11153</SimpleData>
+		<SimpleData name="AGE_20_24">10859</SimpleData>
+		<SimpleData name="AGE_25_34">23849</SimpleData>
+		<SimpleData name="AGE_35_44">19762</SimpleData>
+		<SimpleData name="AGE_45_54">21180</SimpleData>
+		<SimpleData name="AGE_55_64">16360</SimpleData>
+		<SimpleData name="AGE_65_74">8974</SimpleData>
+		<SimpleData name="AGE_75_84">5521</SimpleData>
+		<SimpleData name="AGE_85_UP">2310</SimpleData>
+		<SimpleData name="MED_AGE">33</SimpleData>
+		<SimpleData name="MED_AGE_M">32</SimpleData>
+		<SimpleData name="MED_AGE_F">34</SimpleData>
+		<SimpleData name="HOUSEHOLDS">58399</SimpleData>
+		<SimpleData name="AVE_HH_SZ">2.67</SimpleData>
+		<SimpleData name="HSEHLD_1_M">8001</SimpleData>
+		<SimpleData name="HSEHLD_1_F">8664</SimpleData>
+		<SimpleData name="MARHH_CHD">11321</SimpleData>
+		<SimpleData name="MARHH_NO_C">11978</SimpleData>
+		<SimpleData name="MHH_CHILD">2455</SimpleData>
+		<SimpleData name="FHH_CHILD">7458</SimpleData>
+		<SimpleData name="FAMILIES">38155</SimpleData>
+		<SimpleData name="AVE_FAM_SZ">3.3</SimpleData>
+		<SimpleData name="HSE_UNITS">66747</SimpleData>
+		<SimpleData name="VACANT">8348</SimpleData>
+		<SimpleData name="OWNER_OCC">35231</SimpleData>
+		<SimpleData name="RENTER_OCC">23168</SimpleData>
+		<SimpleData name="NO_FARMS12">164</SimpleData>
+		<SimpleData name="AVE_SIZE12">73</SimpleData>
+		<SimpleData name="CROP_ACR12">7328</SimpleData>
+		<SimpleData name="AVE_SALE12">20067</SimpleData>
+		<SimpleData name="SQMI">156.1</SimpleData>
+		<SimpleData name="Shape_Leng">0.945887629738</SimpleData>
+		<SimpleData name="Shape_Area">0.0411475248075</SimpleData>
+		<SimpleData name="Shape__Area">657170382.808594</SimpleData>
+		<SimpleData name="Shape__Length">117385.195851915</SimpleData>
+		<SimpleData name="GlobalID">27979fd9-08f3-42f0-930a-97b0ab0a24c7</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.9049824778861,38.992237796067 -94.9029593229286,39.1974965901139 -94.7900493106646,39.1968830230703 -94.7305309244628,39.1712563936098 -94.6755137912502,39.174922306463 -94.6464068110062,39.158427796688 -94.6126534228541,39.1516492899277 -94.6012243120585,39.1412276122875 -94.6081367840649,39.1128009744938 -94.6092813943169,39.0446676801363 -94.8687262811752,39.0448268221456 -94.8841229079416,39.0388339236437 -94.9049824778861,38.992237796067</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Cass</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#USA_Counties__Generalized_">
+		<SimpleData name="FID">1077</SimpleData>
+		<SimpleData name="OBJECTID">662</SimpleData>
+		<SimpleData name="STATE_NAME">Missouri</SimpleData>
+		<SimpleData name="STATE_FIPS">29</SimpleData>
+		<SimpleData name="CNTY_FIPS">037</SimpleData>
+		<SimpleData name="FIPS">29037</SimpleData>
+		<SimpleData name="POPULATION">103069</SimpleData>
+		<SimpleData name="POP_SQMI">146.7</SimpleData>
+		<SimpleData name="POP2010">99478</SimpleData>
+		<SimpleData name="POP10_SQMI">141.6</SimpleData>
+		<SimpleData name="WHITE">91261</SimpleData>
+		<SimpleData name="BLACK">3517</SimpleData>
+		<SimpleData name="AMERI_ES">544</SimpleData>
+		<SimpleData name="ASIAN">641</SimpleData>
+		<SimpleData name="HAWN_PI">68</SimpleData>
+		<SimpleData name="HISPANIC">3988</SimpleData>
+		<SimpleData name="OTHER">1410</SimpleData>
+		<SimpleData name="MULT_RACE">2037</SimpleData>
+		<SimpleData name="MALES">48595</SimpleData>
+		<SimpleData name="FEMALES">50883</SimpleData>
+		<SimpleData name="AGE_UNDER5">6756</SimpleData>
+		<SimpleData name="AGE_5_9">7370</SimpleData>
+		<SimpleData name="AGE_10_14">7728</SimpleData>
+		<SimpleData name="AGE_15_19">6979</SimpleData>
+		<SimpleData name="AGE_20_24">5141</SimpleData>
+		<SimpleData name="AGE_25_34">12101</SimpleData>
+		<SimpleData name="AGE_35_44">13259</SimpleData>
+		<SimpleData name="AGE_45_54">15256</SimpleData>
+		<SimpleData name="AGE_55_64">11398</SimpleData>
+		<SimpleData name="AGE_65_74">7468</SimpleData>
+		<SimpleData name="AGE_75_84">4390</SimpleData>
+		<SimpleData name="AGE_85_UP">1632</SimpleData>
+		<SimpleData name="MED_AGE">37.8</SimpleData>
+		<SimpleData name="MED_AGE_M">36.7</SimpleData>
+		<SimpleData name="MED_AGE_F">38.9</SimpleData>
+		<SimpleData name="HOUSEHOLDS">37150</SimpleData>
+		<SimpleData name="AVE_HH_SZ">2.65</SimpleData>
+		<SimpleData name="HSEHLD_1_M">3393</SimpleData>
+		<SimpleData name="HSEHLD_1_F">4660</SimpleData>
+		<SimpleData name="MARHH_CHD">9623</SimpleData>
+		<SimpleData name="MARHH_NO_C">12154</SimpleData>
+		<SimpleData name="MHH_CHILD">1170</SimpleData>
+		<SimpleData name="FHH_CHILD">2791</SimpleData>
+		<SimpleData name="FAMILIES">27533</SimpleData>
+		<SimpleData name="AVE_FAM_SZ">3.07</SimpleData>
+		<SimpleData name="HSE_UNITS">40030</SimpleData>
+		<SimpleData name="VACANT">2880</SimpleData>
+		<SimpleData name="OWNER_OCC">28699</SimpleData>
+		<SimpleData name="RENTER_OCC">8451</SimpleData>
+		<SimpleData name="NO_FARMS12">1495</SimpleData>
+		<SimpleData name="AVE_SIZE12">214</SimpleData>
+		<SimpleData name="CROP_ACR12">202443</SimpleData>
+		<SimpleData name="AVE_SALE12">57682</SimpleData>
+		<SimpleData name="SQMI">702.63</SimpleData>
+		<SimpleData name="Shape_Leng">1.86504790783</SimpleData>
+		<SimpleData name="Shape_Area">0.189031674459</SimpleData>
+		<SimpleData name="Shape__Area">2999111422.32813</SimpleData>
+		<SimpleData name="Shape__Length">231945.181319607</SimpleData>
+		<SimpleData name="GlobalID">828f4cbf-222d-4993-9da0-e3ef35b90c79</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.6187177073223,38.4714737003986 -94.613148203235,38.7372224136036 -94.612469622122,38.8371088903452 -94.1258480147461,38.8308387884282 -94.130584820703,38.6541448971564 -94.119903501217,38.6531874030948 -94.122756815907,38.5677704162252 -94.0696172164969,38.5661227887498 -94.0712425164312,38.4412827206286 -94.1019437141859,38.4523904909673 -94.1174163892821,38.4459132765004 -94.1360399932752,38.4520202993013 -94.1728830779492,38.4392832919213 -94.2053620867304,38.4412210220175 -94.2368109203827,38.4454587996623 -94.2434103923826,38.4565514950256 -94.275111304491,38.4553230140336 -94.318729580467,38.4654238174532 -94.6187177073223,38.4714737003986</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Clay</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#USA_Counties__Generalized_">
+		<SimpleData name="FID">1079</SimpleData>
+		<SimpleData name="OBJECTID">664</SimpleData>
+		<SimpleData name="STATE_NAME">Missouri</SimpleData>
+		<SimpleData name="STATE_FIPS">29</SimpleData>
+		<SimpleData name="CNTY_FIPS">047</SimpleData>
+		<SimpleData name="FIPS">29047</SimpleData>
+		<SimpleData name="POPULATION">236144</SimpleData>
+		<SimpleData name="POP_SQMI">578</SimpleData>
+		<SimpleData name="POP2010">221939</SimpleData>
+		<SimpleData name="POP10_SQMI">543.2</SimpleData>
+		<SimpleData name="WHITE">194100</SimpleData>
+		<SimpleData name="BLACK">11506</SimpleData>
+		<SimpleData name="AMERI_ES">1176</SimpleData>
+		<SimpleData name="ASIAN">4551</SimpleData>
+		<SimpleData name="HAWN_PI">586</SimpleData>
+		<SimpleData name="HISPANIC">13101</SimpleData>
+		<SimpleData name="OTHER">3922</SimpleData>
+		<SimpleData name="MULT_RACE">6098</SimpleData>
+		<SimpleData name="MALES">108361</SimpleData>
+		<SimpleData name="FEMALES">113578</SimpleData>
+		<SimpleData name="AGE_UNDER5">16302</SimpleData>
+		<SimpleData name="AGE_5_9">16276</SimpleData>
+		<SimpleData name="AGE_10_14">15500</SimpleData>
+		<SimpleData name="AGE_15_19">14431</SimpleData>
+		<SimpleData name="AGE_20_24">12755</SimpleData>
+		<SimpleData name="AGE_25_34">31857</SimpleData>
+		<SimpleData name="AGE_35_44">31894</SimpleData>
+		<SimpleData name="AGE_45_54">32798</SimpleData>
+		<SimpleData name="AGE_55_64">25162</SimpleData>
+		<SimpleData name="AGE_65_74">13921</SimpleData>
+		<SimpleData name="AGE_75_84">7979</SimpleData>
+		<SimpleData name="AGE_85_UP">3064</SimpleData>
+		<SimpleData name="MED_AGE">36.2</SimpleData>
+		<SimpleData name="MED_AGE_M">35.2</SimpleData>
+		<SimpleData name="MED_AGE_F">37.1</SimpleData>
+		<SimpleData name="HOUSEHOLDS">87217</SimpleData>
+		<SimpleData name="AVE_HH_SZ">2.51</SimpleData>
+		<SimpleData name="HSEHLD_1_M">10156</SimpleData>
+		<SimpleData name="HSEHLD_1_F">12705</SimpleData>
+		<SimpleData name="MARHH_CHD">20955</SimpleData>
+		<SimpleData name="MARHH_NO_C">24188</SimpleData>
+		<SimpleData name="MHH_CHILD">2577</SimpleData>
+		<SimpleData name="FHH_CHILD">6820</SimpleData>
+		<SimpleData name="FAMILIES">59017</SimpleData>
+		<SimpleData name="AVE_FAM_SZ">3.05</SimpleData>
+		<SimpleData name="HSE_UNITS">93918</SimpleData>
+		<SimpleData name="VACANT">6701</SimpleData>
+		<SimpleData name="OWNER_OCC">61756</SimpleData>
+		<SimpleData name="RENTER_OCC">25461</SimpleData>
+		<SimpleData name="NO_FARMS12">578</SimpleData>
+		<SimpleData name="AVE_SIZE12">191</SimpleData>
+		<SimpleData name="CROP_ACR12">57238</SimpleData>
+		<SimpleData name="AVE_SALE12">87118</SimpleData>
+		<SimpleData name="SQMI">408.56</SimpleData>
+		<SimpleData name="Shape_Leng">1.4894810176</SimpleData>
+		<SimpleData name="Shape_Area">0.110838575358</SimpleData>
+		<SimpleData name="Shape__Area">1775186733.13672</SimpleData>
+		<SimpleData name="Shape__Length">190585.072287575</SimpleData>
+		<SimpleData name="GlobalID">422c6d3d-b856-4d80-94ba-0e1891d33973</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.218165403281,39.2062808974784 -94.2524979087902,39.2312928202066 -94.2991299883703,39.2349508070416 -94.369963412873,39.1650279939447 -94.3991235958657,39.1920201778855 -94.4154051910383,39.1954647838818 -94.411826982424,39.1602060221468 -94.4528589935337,39.1258969838674 -94.4856128227442,39.1445579903769 -94.5163905868692,39.1514891118377 -94.5766340742116,39.120899499984 -94.6081367840649,39.1128009744938 -94.6012243120585,39.1412276122875 -94.6126534228541,39.1516492899277 -94.6106917074874,39.452684894461 -94.219519975305,39.4553883918688 -94.218165403281,39.2062808974784</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Jackson</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#USA_Counties__Generalized_">
+		<SimpleData name="FID">1088</SimpleData>
+		<SimpleData name="OBJECTID">673</SimpleData>
+		<SimpleData name="STATE_NAME">Missouri</SimpleData>
+		<SimpleData name="STATE_FIPS">29</SimpleData>
+		<SimpleData name="CNTY_FIPS">095</SimpleData>
+		<SimpleData name="FIPS">29095</SimpleData>
+		<SimpleData name="POPULATION">705496</SimpleData>
+		<SimpleData name="POP_SQMI">1144.4</SimpleData>
+		<SimpleData name="POP2010">674158</SimpleData>
+		<SimpleData name="POP10_SQMI">1093.6</SimpleData>
+		<SimpleData name="WHITE">451073</SimpleData>
+		<SimpleData name="BLACK">161367</SimpleData>
+		<SimpleData name="AMERI_ES">3352</SimpleData>
+		<SimpleData name="ASIAN">10755</SimpleData>
+		<SimpleData name="HAWN_PI">1610</SimpleData>
+		<SimpleData name="HISPANIC">56434</SimpleData>
+		<SimpleData name="OTHER">25315</SimpleData>
+		<SimpleData name="MULT_RACE">20686</SimpleData>
+		<SimpleData name="MALES">325853</SimpleData>
+		<SimpleData name="FEMALES">348305</SimpleData>
+		<SimpleData name="AGE_UNDER5">47883</SimpleData>
+		<SimpleData name="AGE_5_9">45868</SimpleData>
+		<SimpleData name="AGE_10_14">44721</SimpleData>
+		<SimpleData name="AGE_15_19">44748</SimpleData>
+		<SimpleData name="AGE_20_24">45628</SimpleData>
+		<SimpleData name="AGE_25_34">98213</SimpleData>
+		<SimpleData name="AGE_35_44">86717</SimpleData>
+		<SimpleData name="AGE_45_54">98844</SimpleData>
+		<SimpleData name="AGE_55_64">77546</SimpleData>
+		<SimpleData name="AGE_65_74">43767</SimpleData>
+		<SimpleData name="AGE_75_84">28345</SimpleData>
+		<SimpleData name="AGE_85_UP">11878</SimpleData>
+		<SimpleData name="MED_AGE">36.1</SimpleData>
+		<SimpleData name="MED_AGE_M">34.9</SimpleData>
+		<SimpleData name="MED_AGE_F">37.4</SimpleData>
+		<SimpleData name="HOUSEHOLDS">274804</SimpleData>
+		<SimpleData name="AVE_HH_SZ">2.41</SimpleData>
+		<SimpleData name="HSEHLD_1_M">39735</SimpleData>
+		<SimpleData name="HSEHLD_1_F">47717</SimpleData>
+		<SimpleData name="MARHH_CHD">47295</SimpleData>
+		<SimpleData name="MARHH_NO_C">62795</SimpleData>
+		<SimpleData name="MHH_CHILD">8130</SimpleData>
+		<SimpleData name="FHH_CHILD">29253</SimpleData>
+		<SimpleData name="FAMILIES">167088</SimpleData>
+		<SimpleData name="AVE_FAM_SZ">3.06</SimpleData>
+		<SimpleData name="HSE_UNITS">312105</SimpleData>
+		<SimpleData name="VACANT">37301</SimpleData>
+		<SimpleData name="OWNER_OCC">168797</SimpleData>
+		<SimpleData name="RENTER_OCC">106007</SimpleData>
+		<SimpleData name="NO_FARMS12">701</SimpleData>
+		<SimpleData name="AVE_SIZE12">158</SimpleData>
+		<SimpleData name="CROP_ACR12">75134</SimpleData>
+		<SimpleData name="AVE_SALE12">46408</SimpleData>
+		<SimpleData name="SQMI">616.46</SimpleData>
+		<SimpleData name="Shape_Leng">1.74008992269</SimpleData>
+		<SimpleData name="Shape_Area">0.167698069325</SimpleData>
+		<SimpleData name="Shape__Area">2674310972.07031</SimpleData>
+		<SimpleData name="Shape__Length">219902.59170416</SimpleData>
+		<SimpleData name="GlobalID">08ea3160-c232-43dc-9ac9-ac935c16f8ed</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.612469622122,38.8371088903452 -94.6092813943169,39.0446676801363 -94.6081367840649,39.1128009744938 -94.5766340742116,39.120899499984 -94.5163905868692,39.1514891118377 -94.4856128227442,39.1445579903769 -94.4528589935337,39.1258969838674 -94.411826982424,39.1602060221468 -94.4154051910383,39.1954647838818 -94.3991235958657,39.1920201778855 -94.369963412873,39.1650279939447 -94.2991299883703,39.2349508070416 -94.2524979087902,39.2312928202066 -94.218165403281,39.2062808974784 -94.1937587071459,39.2149217076537 -94.1741967247821,39.2065794959619 -94.1870525188246,39.1847668871034 -94.1492103932495,39.1784735251725 -94.1124670831554,39.142631294541 -94.1204242872259,38.913174315618 -94.1258480147461,38.8308387884282 -94.612469622122,38.8371088903452</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Platte</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#USA_Counties__Generalized_">
+		<SimpleData name="FID">1096</SimpleData>
+		<SimpleData name="OBJECTID">681</SimpleData>
+		<SimpleData name="STATE_NAME">Missouri</SimpleData>
+		<SimpleData name="STATE_FIPS">29</SimpleData>
+		<SimpleData name="CNTY_FIPS">165</SimpleData>
+		<SimpleData name="FIPS">29165</SimpleData>
+		<SimpleData name="POPULATION">97789</SimpleData>
+		<SimpleData name="POP_SQMI">229</SimpleData>
+		<SimpleData name="POP2010">89322</SimpleData>
+		<SimpleData name="POP10_SQMI">209.1</SimpleData>
+		<SimpleData name="WHITE">77914</SimpleData>
+		<SimpleData name="BLACK">5270</SimpleData>
+		<SimpleData name="AMERI_ES">449</SimpleData>
+		<SimpleData name="ASIAN">2051</SimpleData>
+		<SimpleData name="HAWN_PI">292</SimpleData>
+		<SimpleData name="HISPANIC">4424</SimpleData>
+		<SimpleData name="OTHER">1152</SimpleData>
+		<SimpleData name="MULT_RACE">2194</SimpleData>
+		<SimpleData name="MALES">43960</SimpleData>
+		<SimpleData name="FEMALES">45362</SimpleData>
+		<SimpleData name="AGE_UNDER5">5692</SimpleData>
+		<SimpleData name="AGE_5_9">6071</SimpleData>
+		<SimpleData name="AGE_10_14">6363</SimpleData>
+		<SimpleData name="AGE_15_19">5966</SimpleData>
+		<SimpleData name="AGE_20_24">4902</SimpleData>
+		<SimpleData name="AGE_25_34">11608</SimpleData>
+		<SimpleData name="AGE_35_44">12815</SimpleData>
+		<SimpleData name="AGE_45_54">14630</SimpleData>
+		<SimpleData name="AGE_55_64">11308</SimpleData>
+		<SimpleData name="AGE_65_74">5814</SimpleData>
+		<SimpleData name="AGE_75_84">2787</SimpleData>
+		<SimpleData name="AGE_85_UP">1366</SimpleData>
+		<SimpleData name="MED_AGE">38.2</SimpleData>
+		<SimpleData name="MED_AGE_M">37.3</SimpleData>
+		<SimpleData name="MED_AGE_F">39.1</SimpleData>
+		<SimpleData name="HOUSEHOLDS">36103</SimpleData>
+		<SimpleData name="AVE_HH_SZ">2.45</SimpleData>
+		<SimpleData name="HSEHLD_1_M">4579</SimpleData>
+		<SimpleData name="HSEHLD_1_F">5162</SimpleData>
+		<SimpleData name="MARHH_CHD">8489</SimpleData>
+		<SimpleData name="MARHH_NO_C">10629</SimpleData>
+		<SimpleData name="MHH_CHILD">946</SimpleData>
+		<SimpleData name="FHH_CHILD">2474</SimpleData>
+		<SimpleData name="FAMILIES">24126</SimpleData>
+		<SimpleData name="AVE_FAM_SZ">2.99</SimpleData>
+		<SimpleData name="HSE_UNITS">39223</SimpleData>
+		<SimpleData name="VACANT">3120</SimpleData>
+		<SimpleData name="OWNER_OCC">24074</SimpleData>
+		<SimpleData name="RENTER_OCC">12029</SimpleData>
+		<SimpleData name="NO_FARMS12">599</SimpleData>
+		<SimpleData name="AVE_SIZE12">255</SimpleData>
+		<SimpleData name="CROP_ACR12">100654</SimpleData>
+		<SimpleData name="AVE_SALE12">74917</SimpleData>
+		<SimpleData name="SQMI">427.08</SimpleData>
+		<SimpleData name="Shape_Leng">1.56942309763</SimpleData>
+		<SimpleData name="Shape_Area">0.11311468722</SimpleData>
+		<SimpleData name="Shape__Area">1813522568.37109</SimpleData>
+		<SimpleData name="Shape__Length">196522.766021357</SimpleData>
+		<SimpleData name="GlobalID">ee53d5db-499c-4b12-9706-dbc0096ca625</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-94.7900493106646,39.1968830230703 -94.8208193041838,39.2110045970134 -94.8334765851471,39.2617659765794 -94.8811078092364,39.2860459082299 -94.9076814165384,39.3230285011823 -94.9113434958925,39.3401217102412 -94.8982816253809,39.380640705948 -94.925748023499,39.3812660843123 -94.9584938748874,39.4114472213149 -94.9862042182274,39.4394616025624 -95.040511377079,39.4629406955668 -95.0475993093672,39.4853287954999 -95.1020370143983,39.5328485891002 -94.6146745056499,39.5342343989601 -94.6106917074874,39.452684894461 -94.6126534228541,39.1516492899277 -94.6464068110062,39.158427796688 -94.6755137912502,39.174922306463 -94.7305309244628,39.1712563936098 -94.7900493106646,39.1968830230703</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Ray</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#USA_Counties__Generalized_">
+		<SimpleData name="FID">1097</SimpleData>
+		<SimpleData name="OBJECTID">682</SimpleData>
+		<SimpleData name="STATE_NAME">Missouri</SimpleData>
+		<SimpleData name="STATE_FIPS">29</SimpleData>
+		<SimpleData name="CNTY_FIPS">177</SimpleData>
+		<SimpleData name="FIPS">29177</SimpleData>
+		<SimpleData name="POPULATION">23397</SimpleData>
+		<SimpleData name="POP_SQMI">40.8</SimpleData>
+		<SimpleData name="POP2010">23494</SimpleData>
+		<SimpleData name="POP10_SQMI">40.9</SimpleData>
+		<SimpleData name="WHITE">22635</SimpleData>
+		<SimpleData name="BLACK">280</SimpleData>
+		<SimpleData name="AMERI_ES">119</SimpleData>
+		<SimpleData name="ASIAN">61</SimpleData>
+		<SimpleData name="HAWN_PI">17</SimpleData>
+		<SimpleData name="HISPANIC">415</SimpleData>
+		<SimpleData name="OTHER">59</SimpleData>
+		<SimpleData name="MULT_RACE">323</SimpleData>
+		<SimpleData name="MALES">11707</SimpleData>
+		<SimpleData name="FEMALES">11787</SimpleData>
+		<SimpleData name="AGE_UNDER5">1462</SimpleData>
+		<SimpleData name="AGE_5_9">1572</SimpleData>
+		<SimpleData name="AGE_10_14">1765</SimpleData>
+		<SimpleData name="AGE_15_19">1649</SimpleData>
+		<SimpleData name="AGE_20_24">1180</SimpleData>
+		<SimpleData name="AGE_25_34">2498</SimpleData>
+		<SimpleData name="AGE_35_44">3047</SimpleData>
+		<SimpleData name="AGE_45_54">3849</SimpleData>
+		<SimpleData name="AGE_55_64">2989</SimpleData>
+		<SimpleData name="AGE_65_74">2055</SimpleData>
+		<SimpleData name="AGE_75_84">1036</SimpleData>
+		<SimpleData name="AGE_85_UP">392</SimpleData>
+		<SimpleData name="MED_AGE">40.6</SimpleData>
+		<SimpleData name="MED_AGE_M">39.6</SimpleData>
+		<SimpleData name="MED_AGE_F">41.5</SimpleData>
+		<SimpleData name="HOUSEHOLDS">8957</SimpleData>
+		<SimpleData name="AVE_HH_SZ">2.59</SimpleData>
+		<SimpleData name="HSEHLD_1_M">961</SimpleData>
+		<SimpleData name="HSEHLD_1_F">1077</SimpleData>
+		<SimpleData name="MARHH_CHD">2140</SimpleData>
+		<SimpleData name="MARHH_NO_C">3152</SimpleData>
+		<SimpleData name="MHH_CHILD">279</SimpleData>
+		<SimpleData name="FHH_CHILD">599</SimpleData>
+		<SimpleData name="FAMILIES">6564</SimpleData>
+		<SimpleData name="AVE_FAM_SZ">3.02</SimpleData>
+		<SimpleData name="HSE_UNITS">9984</SimpleData>
+		<SimpleData name="VACANT">1027</SimpleData>
+		<SimpleData name="OWNER_OCC">6966</SimpleData>
+		<SimpleData name="RENTER_OCC">1991</SimpleData>
+		<SimpleData name="NO_FARMS12">1162</SimpleData>
+		<SimpleData name="AVE_SIZE12">235</SimpleData>
+		<SimpleData name="CROP_ACR12">174657</SimpleData>
+		<SimpleData name="AVE_SALE12">64122</SimpleData>
+		<SimpleData name="SQMI">573.88</SimpleData>
+		<SimpleData name="Shape_Leng">1.75158661116</SimpleData>
+		<SimpleData name="Shape_Area">0.155962332949</SimpleData>
+		<SimpleData name="Shape__Area">2499447302.36328</SimpleData>
+		<SimpleData name="Shape__Length">222158.74588618</SimpleData>
+		<SimpleData name="GlobalID">6f309ada-f7b9-4f88-a4a7-3537b8442e2e</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-93.7682012149017,39.2062058852293 -93.863669221509,39.2124223181615 -93.9136197124453,39.1834331921072 -93.9359512941713,39.1794616872255 -93.9563069144199,39.1528688088209 -93.9819344763531,39.1446857909423 -94.006341224292,39.1551492744422 -93.9817968848242,39.1905237145974 -93.995171392714,39.2050157910305 -94.0464262057561,39.188176421765 -94.0372100081145,39.1549351165431 -94.0449692171461,39.1460276191726 -94.0728701993513,39.136379686666 -94.1124670831554,39.142631294541 -94.1492103932495,39.1784735251725 -94.1870525188246,39.1847668871034 -94.1741967247821,39.2065794959619 -94.1937587071459,39.2149217076537 -94.218165403281,39.2062808974784 -94.219519975305,39.4553883918688 -94.2176122915516,39.5267154052596 -93.7657003230922,39.5275421977295 -93.7682012149017,39.2062058852293</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
