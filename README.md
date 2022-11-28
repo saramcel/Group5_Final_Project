@@ -1,5 +1,5 @@
 <style>
-  table, th, td {
+  table, th, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
   }
@@ -119,10 +119,10 @@ All non-numeric columns require representative numeric values for the Machine Le
 - SkinCance
 
 ### Preliminary Feature Engineering and Preliminary Feature Selection (including decision-making process) 
-#### AgeCategory | Diabetic | SleepTime
+#### AgeCategory | Diabetes | SleepTime
 
 - AgeCategory for the original database had 13 different groupings with a span of 5 years each. To highlight the particular risk correlated with Heart Disease and increased age, the groupings were split into the following AgeRisk Bins.
-  <details><summary>Expand to see the AgeCategory -> AgeRisk bins</summary>
+  <details><summary>Expand to see the AgeCategory -> AgeRisk Bins</summary>
     <p>
       <table>
         <tr>
@@ -183,35 +183,139 @@ All non-numeric columns require representative numeric values for the Machine Le
     </p>
   </details>
 - The Diabetic column for the original database had 4 different groupings with a spectrum of statuses in regards to diabetes. To reduce the confusing and potenitally flucuating degrees of diabetes. The groupings were reduced into the following Diabetes Bins.
+  <details><summary>Expand to see the Diabetic -> Diabetes Bins</summary>
+    <p>
+      <table>
+        <tr>
+          <th>Diabetic</th>
+          <th>Diabetes Bin</th>
+        </tr>
+        <tr>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>No, borderline diabetes</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Yes (during pregnancy)</td>
+          <td>No</td>
+        </tr>
+      </table>
+    </p>
+  </details>
 - The SleepTime data for the original database had no groupings at all. Many rows show the recommended allotment of slee per day (between 7-9 hours). However some of the entries show patients who are recorded as sleeping up to 24 hours! To limit any outliers or significant deviations, groupings were reduced into the following three Recommended Sleep bins.
-
-| AgeCategory|AgeRisk|Diabetic|Diabetes Bin|SleepTime|Recommended Sleep|
-|:------------|:-------|:------------|:-------|------------:|:-------|
-| 18-24|Low Risk|No|No|1|Below|
-| 25-29|Low Risk|Yes|Yes|2|Below|
-| 30-34|Low Risk|"No, borderline diabetes"|No|3|Below|
-| 35-39|Low Risk|Yes (during pregnancy)|No|4|Below|
-| 40-44|Low Risk|||5|Below|
-| 45-49|Medium Risk|||6|Below|
-| 50-54|Medium Risk|||7|Meets|
-| 55-59|Medium Risk|||8|Meets|
-| 60-64|Medium Risk|||9|Meets|
-| 65-69|High Risk|||10|Above|
-| 70-74|High Risk|||11|Above|
-| 75-79|High Risk|||12|Above|
-| 80 or older|High Risk|||13|Above|
-|||||14|Above|
-|||||15|Above|
-|||||16|Above|
-|||||17|Above|
-|||||18|Above|
-|||||19|Above|
-|||||20|Above|
-|||||21|Above|
-|||||22|Above|
-|||||23|Above|
-|||||24|Above|
-
+  <details><summary>Expand to see the SleepTime -> Recommended Sleep Bins</summary>
+    <p>
+      <table>
+        <tr>
+          <th>SleepTime</th>
+          <th>Recommended Sleep</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Below</td>
+        </tr>
+        <tr>
+          <td>2/td>
+          <td>Below</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Below</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Below</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Below</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Below</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Meets</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Meets</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Meets</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>Above</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>Above</td>
+        </tr>
+      </table>
+    </p>
+  </details>
 The original data set came from the BRFSS file for 2020. The author that adjusted this dataset has already reduced the features from several hundred down to a small set of features related to heart disease risks. With this in mind we do not feel that any further reduction in feature is necessary.
 
 ### How Data was Split into Training and Testing Sets
