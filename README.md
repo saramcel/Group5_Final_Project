@@ -325,10 +325,11 @@ To properly train a machine learning model the datset is broken into a training 
 ![Split data into training and Testing Set](/Images/Split_data_Tg_Tt.PNG)
 
 ### Model Choice (including limitations and benefits)
+#### Logistic Regression Model
+As previously mentioned the team decided on using a supervised machine learning model. This regression model is a classification algorithm to predict binary outcomes centered on independent variables. The idea of binary outcomes means two answers to the query. First, this project looks at whether an individual is prone to heart disease or not to developing heart disease after considering a series of independent variables such as gender, age, sleep habits, and eating habits. The outcome is either True or False (dependent variable), the outcome the team expects
 
 #### Logistic Regression Model
 As previously mentioned, the team used a supervised machine-learning model. More specifically, the model is a logistic regression model. This regression model is a classification algorithm to predict binary outcomes centered on independent variables. The idea of binary outcomes means two answers to the query. First, this project looks at whether an individual is prone to heart disease or not to developing heart disease after considering a series of independent variables such as gender, age, sleep habits, and eating habits. The outcome is either True or False (dependent variable). The outcome the team expects is the likihood of conditons being likely or unlikely.. 
-
 Preliminary analysis suggests the team could apply the SMOTEENN model to conduct the supervised machine learning on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
 
 ![SMOTEENN code](/Images/SMOTEENN_code.PNG)
@@ -382,8 +383,12 @@ Within these interactive elements, a user will be able to make our dashboard fuc
 ### Interactive element(s) 
 The interactive elements are listed within the storyboard, linked above.
 
+### Online Dashboard:  NOT FINAL LINK
+Initial link drop of the [Heart Disease Dashboard](https://public.tableau.com/views/HeartDiseaseDashboard_16695909016350/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) featured on Tableau Public. Further group input needed prior to commit. 
+
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
+
 
 <details><summary>Click the Arrow on the left to expand the First Segment Requirements </summary>
 <p>
@@ -436,7 +441,7 @@ Team members present a provisional database that stands in for the final databas
 - [x] Description of their source of data
 - [x] Questions they hope to answer with the data
 - [x] Description of the data exploration phase of the project - Darin
-- [ ] Description of the analysis phase of the project - JB & Alex
+- [x] Description of the analysis phase of the project - JB & Alex
 - [x] Presentations are drafted in Google Slides - Sara
 
 ### GitHub
@@ -480,17 +485,17 @@ Team members present a provisional database that stands in for the final databas
 
 Team members present a fully integrated database.
 - [x] Database stores static data for use during the project
-- [ ] Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
-- [ ] Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
+- [x] Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+- [x] Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
 - [x] Includes at least two tables (or collections, if using MongoDB)
 - [x] Includes at least one join using the database language (not including any joins in Pandas)
 
 
 # Dashboard - Hannah
 A blueprint for the dashboard is created and includes all of the following:
-- [ ] Storyboard on Google Slide(s)
-- [ ] Description of the tool(s) that will be used to create final dashboard
-- [ ] Description of interactive element(s) 
+- [x] Storyboard on Google Slide(s)
+- [x] Description of the tool(s) that will be used to create final dashboard
+- [x] Description of interactive element(s) 
 
  </p>
  </details>
