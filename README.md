@@ -15,7 +15,9 @@
   Heart Disease affects us all and we have each been affected to various degrees by this disease. 
 ### Source of Data Description:  
   The data source contains 18 variables with Heart Disease as the first column which is the Explanatory Variable.  
-  See HeartDiseaseData2020_defs.md for each variable defined as provided in dataset. 
+  See HeartDiseaseData2020_defs.md for each variable defined as provided in dataset.  
+  
+  Click [here](https://docs.google.com/presentation/d/1pKxIwqTSkS6hSRaHQHCl31KS4-U53mBcugnEquo3WC4/edit#slide=id.g1944374d260_0_352) for more information about our data.
 
 ### Questions they hope to answer with the data:
   1. What are the top contributors to Heart Disease based on the features of this data set?
@@ -383,13 +385,12 @@ When the tables were joined, three new columns were added to the end of the main
  
 ### Summary: 
 We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population. As well as tying in interactive elements using features within Tableau. These interactive elements will include: 
-- Input of city and county locations to see personal community risk factors. 
-- Input of personal identifiers to see highest personal self-risk facors.  
+- Input of state and county locations to see personal community risk factors. 
+- Input of personal identifiers to see highest precent of age group.  
 
 Within these interactive elements, a user will be able to make our dashboard fuctional for personal use at an individual and community level. 
 
-### Interactive element(s) 
-The interactive elements are listed within the storyboard, linked above.
+### [Data Dashboard](https://public.tableau.com/views/HeartDiseaseDashboard_16695909016350/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) featured on Tableau Public. 
 
 ### Online Dashboard:  NOT FINAL LINK
 Initial link drop of the [Heart Disease Dashboard](https://public.tableau.com/views/HeartDiseaseDashboard_16695909016350/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) featured on Tableau Public. Further group input needed prior to commit. 
