@@ -8,7 +8,8 @@
   - [hanstout](https://github.com/hanstout) - Tech & Tableau Dashboard
   - [AlexKrumins](https://github.com/AlexKrumins) - Git Hub Guru and ML Collab
 
-## Presentation
+
+## Overall Information
 ### Selected Topic:  
   Personal Key Indicators of Heart Disease
 ### Reason for Topic:  
@@ -23,6 +24,9 @@
   1. What are the top contributors to Heart Disease based on the features of this data set?
   2. What are the least contributing features in this data set?
   3. What combinations are the worst for Heart Disease outcomes?
+
+<details><summary>Click the Arrow on the left to expand the Data Exploration Phase </summary>
+<p>
 
 ### Description of the data exploration phase of the project
 During the data exploration phase, the main goals are to obtain an overall understanding of the data, and to determine how that will affect the model chosen for analysis. 
@@ -54,6 +58,9 @@ Overall, before any binning or data cleaning, the top five feature correlations 
 
 ### Description of the analysis phase of the project
 The descrption of the analysis phase is shared in the Machine Learning Model Section below.
+
+ </p>
+ </details>
 
 Click [here](https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8-WxlcsyS_BWhDxWs/edit?usp=sharing) for Google Slides Draft.
 
@@ -393,9 +400,6 @@ Within these interactive elements, a user will be able to make our dashboard fuc
 
 ### [Data Dashboard](https://public.tableau.com/views/HeartDiseaseDashboard_16695909016350/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) featured on Tableau Public. 
 
-### Online Dashboard:  NOT FINAL LINK
-Initial link drop of the [Heart Disease Dashboard](https://public.tableau.com/views/HeartDiseaseDashboard_16695909016350/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) featured on Tableau Public. Further group input needed prior to commit. 
-
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
 
@@ -456,7 +460,7 @@ Team members present a provisional database that stands in for the final databas
 
 ### GitHub
 #### Main Branch
-- [ ] All code in the main branch is production ready
+- [x] All code in the main branch is production ready
 The main branch should include:
 - [x] All code necessary to perform exploratory analysis
 - [x] Some code necessary to complete the machine learning portion of the project
