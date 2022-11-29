@@ -124,7 +124,7 @@ All non-numeric columns require representative numeric values for the Machine Le
 
 - AgeCategory for the original database had 13 different groupings with a span of 5 years each. To highlight the particular risk correlated with Heart Disease and increased age, the groupings were split into the following AgeRisk Bins.
 
-<details><summary>Click the Arrow on the left to expand the AgeCategory -> AgeRisk Bins </summary>
+<details><summary>Expand to see the AgeCategory -> AgeRisk Bins </summary>
 <style>
   table, th, tr, td {
     border: 1px solid black;
