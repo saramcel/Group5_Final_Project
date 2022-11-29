@@ -124,6 +124,17 @@ A limitation of random undersamoling is the random loss of data without human co
 #### Benefits of Undersampling
 A huge advantage of applying random sampling is correcting the imbalance of the dataset and reducing the skew toward the majority classes within the dataset
 
+### Changes in Model Choice
+The team did not have any plan to adjust the model application. The logistic regression model was adequate for the project’s duration. However, if there were additional time to explore the wide range of logistic regression alternatives the team could explore alternatives. According to a quick reference of the courseware, the list has some viable candidates—Tree-based Methods, Neural Networks and Support Vector Machines, and K-Nearest Neighbor, to name a few. Given the opportunity in an educational environment, the exploration is boundless with the courseware available. After further research, the Logistic Regression model is prone to overfitting and multicollinearity. the misleading outputs from a high intercorrelations among the independent variables may result in skewed outcomes. Within the project constraints, the Logistics Regression model served the purpose of determining the Heart Disease outcomes, therefore, precluding any adjustment to the team’s model choice. 
+
+### Model Training
+The project conducted the training of the model in phases as outlined in the KU Courseware.  The training in this phase the team selected a dataset that provides cleans and paired date where the Y (dependent) and X (independent) variable are available. Once all of the identified datasets are cleaned and processed the data set is divided into a training set and testing set.  According to the KU Boot Camp documentation it recommends a 70% training set to train the model. Continual research and development (if the team were long term) could present opportunities to conduct additonal training sets.
+
+### Model Accuracy
+
+
+
+
 ## Database - PostgresSQL - Sara
 The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [all_tables_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/ed813a1c75cdc1ce08a91933a98e4c18a56b7856/TableSchemas/all_tables_schema.png) decribes the data types for the main table and its relationship with the other three tables. 
 
