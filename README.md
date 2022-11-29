@@ -190,6 +190,7 @@ All non-numeric columns require representative numeric values for the Machine Le
       </table>
     </p>
 </details>
+
 - The Diabetic column for the original database had 4 different groupings with a spectrum of statuses in regards to diabetes. To reduce the confusing and potenitally flucuating degrees of diabetes. The groupings were reduced into the following Diabetes Bins.
   <details><summary>Expand to see the Diabetic -> Diabetes Bins</summary>
     <p>
@@ -217,6 +218,7 @@ All non-numeric columns require representative numeric values for the Machine Le
       </table>
     </p>
   </details>
+  
 - The SleepTime data for the original database had no groupings at all. Many rows show the recommended allotment of slee per day (between 7-9 hours). However some of the entries show patients who are recorded as sleeping up to 24 hours! To limit any outliers or significant deviations, groupings were reduced into the following three Recommended Sleep bins.
   <details><summary>Expand to see the SleepTime -> Recommended Sleep Bins</summary>
     <p>
