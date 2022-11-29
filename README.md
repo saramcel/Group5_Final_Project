@@ -123,7 +123,9 @@ All non-numeric columns require representative numeric values for the Machine Le
 #### AgeCategory | Diabetes | SleepTime
 
 - AgeCategory for the original database had 13 different groupings with a span of 5 years each. To highlight the particular risk correlated with Heart Disease and increased age, the groupings were split into the following AgeRisk Bins.
-  <details><summary>Expand to see the AgeCategory -> AgeRisk Bins</summary><style>
+
+<details><summary>Click the Arrow on the left to expand the AgeCategory -> AgeRisk Bins </summary>
+<style>
   table, th, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -187,7 +189,7 @@ All non-numeric columns require representative numeric values for the Machine Le
         </tr>
       </table>
     </p>
-  </details>
+</details>
 - The Diabetic column for the original database had 4 different groupings with a spectrum of statuses in regards to diabetes. To reduce the confusing and potenitally flucuating degrees of diabetes. The groupings were reduced into the following Diabetes Bins.
   <details><summary>Expand to see the Diabetic -> Diabetes Bins</summary>
     <p>
