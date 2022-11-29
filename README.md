@@ -326,13 +326,18 @@ All non-numeric columns require representative numeric values for the Machine Le
     </table>
   </p>
 </details>
+
 The original data set came from the BRFSS file for 2020. The author that adjusted this dataset has already reduced the features from several hundred down to a small set of features related to heart disease risks. With this in mind we do not feel that any further reduction in feature is necessary.
 
 ### How Data was Split into Training and Testing Sets
 
 To properly train a machine learning model the datset is broken into a training set and a testing set.  the ratio can be aligned to meet a 50%  split or any ratio keeping in mind the size of the dataset.  in the cse of the heart disease dataset, there are over 300k indivduals within the dataset.  this massive set required the team to consider a smaller ratio of 20% training and 80% testing.  See the image below of the coding
 
+<details><summary>Expand to see the Training/Testing Split code</summary>
+<p>
 ![Split data into training and Testing Set](/Images/Split_data_Tg_Tt.PNG)
+</p>
+</details>
 
 ### Model Choice
 
@@ -340,13 +345,21 @@ To properly train a machine learning model the datset is broken into a training 
 As previously mentioned, the team used a supervised machine-learning model. More specifically, the model is a logistic regression model. This regression model is a classification algorithm to predict binary outcomes centered on independent variables. The idea of binary outcomes means two answers to the query. First, this project looks at whether an individual is prone to heart disease or not to developing heart disease after considering a series of independent variables such as gender, age, sleep habits, and eating habits. The outcome is either True or False (dependent variable). The outcome the team expects is the likihood of conditons being likely or unlikely.
 Preliminary analysis suggests the team could apply the SMOTEENN model to conduct the supervised machine learning on the heart disease dataset. The courseware covering the SMOTEENN technique supports the team's assessment to avoid the traps of oversampling the data and apply the benefits of both oversampling and undersampling as discussed in Module 17 of the course. For example, within the first run of the machine-learning model, the code returned zero output after waiting approximately 45 minutes. The image below provides the SMOTEENN coding
 
+<details><summary>Expand to see the SMOTEEN code</summary>
+<p>
 ![SMOTEENN code](/Images/SMOTEENN_code.PNG)
+</p>
+</details>
 
 A quick assessment determined that the dataset contains over 10 million cells that require analysis; therefore, the amount of time to produce a second segment appropriate data return proved unsatisfactory and prohibitive to the overall project timeline. In essence, the team determined that the advantage of SMOTEENN is its ability to process a dataset with successful returns. The downside of applying the SMOTEENN is the limitations of process time in conjunction with the project milestones and objectives. 
 
 The team then chose to apply the suggested model that conducts and undersampling of the data to meet the time constraints. The intent on using undersampling is to apply the training and test to the dataset where there is a large amount of data. The size and quality of the data set allows undersampling techniques to present accuracy to the machine learning model. A disadvantage of undersampling is that some data is not used within the analysis. This risk is mitigated by the amount of the known classes within the dataset providing enough data points to construct solid returns on the analysis. The image below shows the team's coding to accomplish this segement of the project.  
 
+<details><summary>Expand to see the Undersampling code</summary>
+<p>
 ![Random Undersampling code](/Images/Undersampling_code.PNG)
+</p>
+</details>
 
 #### Limitations of Undersampling
 A limitation of random undersamoling is the random loss of data without human consideration. 
