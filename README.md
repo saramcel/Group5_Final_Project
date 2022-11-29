@@ -60,23 +60,23 @@ Overall, before any binning or data cleaning, the top five feature correlations 
  </p>
  </details>
 
-Click [here](https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8-WxlcsyS_BWhDxWs/edit?usp=sharing) for Google Slides Draft.
-
+### Presentation
+Click [here](https://docs.google.com/presentation/d/1YcjTtTXW_EbCUtDzR2xOAC7jaD8-WxlcsyS_BWhDxWs/edit?usp=sharing) for Google Slides Presentation.
 
 #### Communication Protocols
 - Slack for the main discussion & P2P correspondence.
 - GitHub for commenting on code additions
 - Zoom for screen-sharing
 
-## Tech Overview - Hannah
+## Tech Overview
 For the technology descriptions, see [technology.md file](https://github.com/AlexKrumins/Group5_Final_Project/blob/main/technology.md). The technologies chosen are summarized in the diagram below.
 
 ![image](https://user-images.githubusercontent.com/107961905/201821131-0cf5f10c-4bd5-4715-a25a-98ccc23c3dfd.png)
 
-## GitHub - Alex
+## GitHub
 One challenge facing the team in this assignment is the (potentially) daunting task of collaborating via GitHub. At times, GitHub can seem overwhelming to newcomers first learning & navigating the environment. Leveraging the experience of [AlexKrumins](https://github.com/AlexKrumins), the group will use GitHub not only as a repository for storing data, code, and analyses, but also as a learning tool to develop the necessary practices for safe and secure code development.
 
-## Machine Learning Model - JB
+## Machine Learning Model
 Once the challenge of the data set selection is complete it is now time to determine the best application of machine learning for the project. Between the two choices there is supervised or unsupervised.  The following was compiled by [JBTallgrass](https://github.com/JBTallgrass), using the exsisting KU courseware and resources to develop the machine learning model portion of the project.
 
 ### Unsupervised Machine Learning
@@ -99,7 +99,7 @@ In this phase the team selected a dataset that provides cleans and paired date w
   * 3 Application Phase
 Once the model has passed the validation phase, it is now time to apply a new data set. Standard data pre-procession of the data set is required to ensure the data is cleaned and aligned to make the machine learning process effective. the final phase provides a machine learning solution to the new data set and present potential prediction of conditions relevant to the variables and environmental influences.
 
-### Preliminary Data Preprocessing (Dummy Columns)
+### Preliminary Data Preprocessing
 
 All non-numeric columns require representative numeric values for the Machine Learning process. Given all the different types of data available in our database, remaining columns include:
 - HeartDisease
@@ -119,7 +119,7 @@ All non-numeric columns require representative numeric values for the Machine Le
 - KidneyDisease
 - SkinCance
 
-### Preliminary Feature Engineering and Preliminary Feature Selection (including decision-making process) 
+### Preliminary Feature Engineering and Preliminary Feature Selection 
 #### AgeCategory | Diabetes | SleepTime
 
 - AgeCategory for the original database had 13 different groupings with a span of 5 years each. To highlight the particular risk correlated with Heart Disease and increased age, the groupings were split into the following AgeRisk Bins.
@@ -330,7 +330,7 @@ To properly train a machine learning model the datset is broken into a training 
 
 ![Split data into training and Testing Set](/Images/Split_data_Tg_Tt.PNG)
 
-### Model Choice (including limitations and benefits)
+### Model Choice
 
 #### Logistic Regression Model
 As previously mentioned, the team used a supervised machine-learning model. More specifically, the model is a logistic regression model. This regression model is a classification algorithm to predict binary outcomes centered on independent variables. The idea of binary outcomes means two answers to the query. First, this project looks at whether an individual is prone to heart disease or not to developing heart disease after considering a series of independent variables such as gender, age, sleep habits, and eating habits. The outcome is either True or False (dependent variable). The outcome the team expects is the likihood of conditons being likely or unlikely.
