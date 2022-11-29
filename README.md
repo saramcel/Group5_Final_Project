@@ -14,7 +14,9 @@
   Heart Disease affects us all and we have each been affected to various degrees by this disease. 
 ### Source of Data Description:  
   The data source contains 18 variables with Heart Disease as the first column which is the Explanatory Variable.  
-  See HeartDiseaseData2020_defs.md for each variable defined as provided in dataset. 
+  See HeartDiseaseData2020_defs.md for each variable defined as provided in dataset.  
+  
+  Click [here](https://docs.google.com/presentation/d/1pKxIwqTSkS6hSRaHQHCl31KS4-U53mBcugnEquo3WC4/edit#slide=id.g1944374d260_0_352) for more information about our data.
 
 ### Questions they hope to answer with the data:
   1. What are the top contributors to Heart Disease based on the features of this data set?
