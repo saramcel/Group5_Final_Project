@@ -25,6 +25,7 @@
   2. What are the least contributing features in this data set?
   3. What combinations are the worst for Heart Disease outcomes?
 
+### Data Exploration Phase
 <details><summary>Click the Arrow on the left to expand the Data Exploration Phase </summary>
 <p>
 
@@ -55,9 +56,6 @@ Of the 17 independant variables, BMI had the highest number of unique values wit
 Overall, before any binning or data cleaning, the top five feature correlations are Age Category, Difficutly Walking, Stroke, Physical Health, and Diabetic. The lowest 3 were Physical Activity, Alcohol Drinking, and General Health.
 
 ![EDA_Correlation](/Images/EDA_Correlation.png)
-
-### Description of the analysis phase of the project
-The descrption of the analysis phase is shared in the Machine Learning Model Section below.
 
  </p>
  </details>
@@ -362,7 +360,7 @@ The project conducted the training of the model in phases as outlined in the KU 
 Machine learning accuracy is critical for determining how the model illuminates connections and trends across the dataset within the context of the inputs or training data. The more accurate the model can be with data, the more information is available to decision-makers. Therefore, the more valuable the model. The associated model achieved an accuracy score of .76. This means that 7 of 10 single observations in the testing set were predicted correctly by the model.
 
 ### Model Confusion Matrix with final Accuracy Score
-
+To be added
 
 ## Database - PostgresSQL - Sara
 The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [all_tables_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/ed813a1c75cdc1ce08a91933a98e4c18a56b7856/TableSchemas/all_tables_schema.png) decribes the data types for the main table and its relationship with the other three tables. 
@@ -510,6 +508,79 @@ A blueprint for the dashboard is created and includes all of the following:
 - [x] Storyboard on Google Slide(s)
 - [x] Description of the tool(s) that will be used to create final dashboard
 - [x] Description of interactive element(s) 
+
+ </p>
+ </details>
+
+<details><summary>Click the Arrow on the left to expand the Third Segment Requirements </summary>
+<p>
+
+### Presentation
+- [x] Selected topic
+- [x] Reason why they selected their topic
+- [x] Description of their source of data
+- [x] Questions they hope to answer with the data
+- [x] Description of the data exploration phase of the project - Darin
+- [x] Description of the analysis phase of the project - JB & Alex
+- [x] Technologies, languages, tools, and algorithms used throughout the project
+- [x] Presentations are drafted in Google Slides - Sara
+
+### GitHub
+#### Main Branch
+- [x] All code in the main branch is production ready
+The main branch should include:
+- [x] All code necessary to perform exploratory analysis
+- [x] Most code necessary to complete the machine learning portion of the project
+
+- [x] Includes a README.md
+README.md must include:
+- [x] Description of the communication protocols
+- [x] Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest)
+- [x] Link to Google Slides draft presentation
+
+#### Individual Branches
+| Name | At least one branch for each team member | Each team member has at least four commits from the duration of the second segment |
+| --- | --- | --- |
+| Alex |✓|✓|
+| JB |✓|✓|
+| Sara |✓|✓|
+| Hannah |✓|✓|
+| Darin |✓|✓|
+
+Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
+
+# Machine Learning Model
+Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
+- [x] Takes in data in from the provisional database
+- [x] Outputs label(s) for input data
+
+- [x] Team members submit the code for their machine learning model, as well as the following:
+- [x] Description of preliminary data preprocessing (Dummy Columns)
+- [x] Description of preliminary feature engineering and preliminary feature selection, including their decision-making process (Decide to keep all or some of the features)
+- [x] Description of how data was split into training and testing sets
+- [x] Explanation of model choice, including limitations and benefits
+- [x] Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+- [x] Description of how they have trained the model thus far, and any additional training that will take place
+- [x] Description of current accuracy score
+- [x] Additionally, the model obviously addresses
+
+# Database 
+Team members present a provisional database that stands in for the final database and accomplishes the following:
+- [x] Sample data that mimics the expected final database structure or schema
+- [x] Draft machine learning module is connected to the provisional database 
+
+Team members present a fully integrated database.
+- [x] Database stores static data for use during the project
+- [x] Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+- [x] Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
+- [x] Includes at least two tables (or collections, if using MongoDB)
+- [x] Includes at least one join using the database language (not including any joins in Pandas)
+
+# Dashboard - Hannah
+A blueprint for the dashboard is created and includes all of the following:
+- [x] Images from the initial analysis
+- [x] Data (images or report) from the machine
+- [x] At least one interactive element
 
  </p>
  </details>
