@@ -335,7 +335,9 @@ To properly train a machine learning model the datset is broken into a training 
 
 <details><summary>Expand to see the Training/Testing Split code</summary>
 <p>
+
 ![Split data into training and Testing Set](/Images/Split_data_Tg_Tt.PNG)
+
 </p>
 </details>
 
@@ -347,7 +349,9 @@ Preliminary analysis suggests the team could apply the SMOTEENN model to conduct
 
 <details><summary>Expand to see the SMOTEEN code</summary>
 <p>
+
 ![SMOTEENN code](/Images/SMOTEENN_code.PNG)
+
 </p>
 </details>
 
@@ -357,7 +361,9 @@ The team then chose to apply the suggested model that conducts and undersampling
 
 <details><summary>Expand to see the Undersampling code</summary>
 <p>
+
 ![Random Undersampling code](/Images/Undersampling_code.PNG)
+
 </p>
 </details>
 
