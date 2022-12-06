@@ -23,7 +23,7 @@
 ### Questions they hope to answer with the data:
   1. What are the top contributors to Heart Disease based on the features of this data set?
   2. What are the least contributing features in this data set?
-  3. What combinations are the worst for Heart Disease outcomes?
+  3. How accurate is our model in predicting future outcomes from new data?
 
 ### Data Exploration Phase
 <details><summary>Click the Arrow on the left to expand the Data Exploration Phase </summary>
