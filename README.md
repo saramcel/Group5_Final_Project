@@ -33,7 +33,7 @@
 During the data exploration phase, the main goals are to obtain an overall understanding of the data, and to determine how that will affect the model chosen for analysis. 
 
 #### Data Set Overview
-The dependant variable for this analysis is the first column, HeartDisease. This is a yes or no column as to whether the respondant has Heart Disease. Overall there were no NA values and a small amout of duplicate rows. The unique identifier has already been removed from this data set to prep for Machine Learning, and the number of features has been reduced, so there is a greater chance for duplicate values. These rows should not be removed as they each represent an actual unique individual.
+The dependant variable for this analysis is the first column, HeartDisease. This is a yes or no column as to whether the respondant has Heart Disease. Overall, there were no NA values and a small amount of duplicate rows. The unique identifier has already been removed from this data set to prep for Machine Learning, and the number of features has been reduced, so there is a greater chance for duplicate values. These rows should not be removed as they each represent an actual unique individual.
  
 ![EDA_Overview](/Images/EDA_Overview.png)
 
@@ -53,7 +53,7 @@ Of the 17 independant variables, BMI had the highest number of unique values wit
 ![EDA_Unique](/Images/EDA_Unique.png)
 
 #### Correlation
-Overall, before any binning or data cleaning, the top five feature correlations are Age Category, Difficutly Walking, Stroke, Physical Health, and Diabetic. The lowest 3 were Physical Activity, Alcohol Drinking, and General Health.
+Overall, before any binning or data cleaning, the top five feature correlations are Age Category, Difficulty Walking, Stroke, Physical Health, and Diabetic. The lowest 3 were Physical Activity, Alcohol Drinking, and General Health.
 
 ![EDA_Correlation](/Images/EDA_Correlation.png)
 
@@ -77,21 +77,21 @@ For the technology descriptions, see [technology.md file](https://github.com/Ale
 One challenge facing the team in this assignment is the (potentially) daunting task of collaborating via GitHub. At times, GitHub can seem overwhelming to newcomers first learning & navigating the environment. Leveraging the experience of [AlexKrumins](https://github.com/AlexKrumins), the group will use GitHub not only as a repository for storing data, code, and analyses, but also as a learning tool to develop the necessary practices for safe and secure code development.
 
 ## Machine Learning Model
-Once the challenge of the data set selection is complete it is now time to determine the best application of machine learning for the project. Between the two choices there is supervised or unsupervised.  The following was compiled by [JBTallgrass](https://github.com/JBTallgrass), using the exsisting KU courseware and resources to develop the machine learning model portion of the project.
+Once the challenge of the data set selection is complete it is now time to determine the best application of machine learning for the project. Between the two choices there is supervised or unsupervised.  The following was compiled by [JBTallgrass](https://github.com/JBTallgrass), using the existing KU courseware and resources to develop the machine learning model portion of the project.
 
 ### Unsupervised Machine Learning
-The detailed discussion concerning the attributes of unsupervised machine learning models are outside the scope of the project however it is important to note that unsupervised machine learning best suits projects centered on transforming data to create approaches to intuitively analyze or structure whole data sets into clusters or patterns. We have rejected this model as in our dataset the categories are already known: Diagnosed with Heart Disease, or not Diagnosed with Heart Disease. This model was rejected as the groups are already defined as either having heart diesase or not having heart disease.
+The detailed discussion concerning the attributes of unsupervised machine learning models are outside the scope of the project however it is important to note that unsupervised machine learning best suits projects centered on transforming data to create approaches to intuitively analyze or structure whole data sets into clusters or patterns. We have rejected this model as in our dataset the categories are already known: Diagnosed with Heart Disease, or not Diagnosed with Heart Disease. This model was rejected as the groups are already defined as either having heart disease or not having heart disease.
 
 ### Supervised Machine Learning 
-In a supervised machine learning environment the input data is refined into paired outcomes. The paired outcomes then provide a "supervised" lens that facilitates the training and test of the supervised machine learning model to predict potential coorelations using new data.
-For the purpose of the project, Team 5 will aplly supervised machine learning in accordance with the below graphic.
+In a supervised machine learning environment the input data is refined into paired outcomes. The paired outcomes then provide a "supervised" lens that facilitates the training and test of the supervised machine learning model to predict potential correlations using new data.
+For the purpose of the project, Team 5 will apply supervised machine learning in accordance with the below graphic.
 
 ![Team 5 supervised Machine Learning Model: a graphic representation](https://github.com/AlexKrumins/Group5_Final_Project/blob/main/TM5_ML_model_graphic.png)
 
 In the above graphic the Team has sketched the project into 3 phases to aid in further development of the final project.
 
   * 1 Training Phase
-In this phase the team selected a dataset that provides cleans and paired date where the Y (dependent) and X (independent) variable are available. Once all of the identified datasets are cleaned and processed the data set is divided into a ttrainingn set and testing set.  According to the KU Boot Camp documentation it recommends a 70% training set to train the model.
+In this phase the team selected a dataset that provides cleans and paired date where the Y (dependent) and X (independent) variable are available. Once the identified datasets are cleaned and processed the data set is divided into a training set and testing set.  According to the KU Boot Camp documentation it recommends a 70% training set to train the model.
 
   * 2 Validation Phase
  This phase applies the model's learning algorithm to the remaining 30% of the given data set. In essence the data is known and the team is testing the model to ensure outputs are inline with defined data.  Assumptions about the dataset, conditions, and hypothesis begin taking shape.
@@ -191,7 +191,7 @@ All non-numeric columns require representative numeric values for the Machine Le
     </p>
 </details>
 
-- The Diabetic column for the original database had 4 different groupings with a spectrum of statuses in regards to diabetes. To reduce the confusing and potenitally flucuating degrees of diabetes. The groupings were reduced into the following Diabetes Bins.
+- The Diabetic column for the original database had 4 different groupings with a spectrum of statuses in regards to diabetes. To reduce the confusing and potentially fluctuating degrees of diabetes. The groupings were reduced into the following Diabetes Bins.
 <details><summary>Expand to see the Diabetic -> Diabetes Bins</summary>
   <p>
     <table>
@@ -219,7 +219,7 @@ All non-numeric columns require representative numeric values for the Machine Le
   </p>
 </details>
 
-- The SleepTime data for the original database had no groupings at all. Many rows show the recommended allotment of slee per day (between 7-9 hours). However some of the entries show patients who are recorded as sleeping up to 24 hours! To limit any outliers or significant deviations, groupings were reduced into the following three Recommended Sleep bins.
+- The SleepTime data for the original database had no groupings at all. Many rows show the recommended allotment of sleep per day (between 7-9 hours). However, some of the entries show patients who are recorded as sleeping up to 24 hours! To limit any outliers or significant deviations, groupings were reduced into the following three Recommended Sleep bins.
 <details><summary>Expand to see the SleepTime -> Recommended Sleep Bins</summary>
   <p>
     <table>
@@ -331,7 +331,7 @@ The original data set came from the BRFSS file for 2020. The author that adjuste
 
 ### How Data was Split into Training and Testing Sets
 
-To properly train a machine learning model the datset is broken into a training set and a testing set.  the ratio can be aligned to meet a 50%  split or any ratio keeping in mind the size of the dataset.  in the cse of the heart disease dataset, there are over 300k indivduals within the dataset.  this massive set required the team to consider a smaller ratio of 20% training and 80% testing.  See the image below of the coding
+To properly train a machine learning model the dataset is broken into a training set and a testing set.  The ratio can be aligned to meet a 50% split or any ratio keeping in mind the size of the dataset.  In the case of the heart disease dataset, there are over 300k individuals within the dataset.  this massive set required the team to consider a smaller ratio of 20% training and 80% testing.  See the image below of the coding
 
 <details><summary>Expand to see the Training/Testing Split code</summary>
 <p>
@@ -625,7 +625,7 @@ A blueprint for the dashboard is created and includes all of the following:
 - [x] Anything the team would have done differently
 - [x] Slides are primarily images or graphics (rather than primarily text)
 - [x] Images are clear, in high-definition, and directly illustrative of subject matter
-- [ ] Presentations are finalized in Google Slides.
+- [x] Presentations are finalized in Google Slides.
 
 ### GitHub
 #### Main Branch
@@ -660,7 +660,7 @@ Note: The descriptions and explanations required in all other project deliverabl
 - [x] Explanation of model choice, including limitations and benefits
 - [x] Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 - [x] Description of how they have trained the model thus far, and any additional training that will take place
-- [ ] Description and explanation of model’s confusion matrix, including final accuracy score
+- [x] Description and explanation of model’s confusion matrix, including final accuracy score
 - [x] Additionally, the model obviously addresses the question or problem the team is solving.
 
 
