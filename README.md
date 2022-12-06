@@ -131,7 +131,7 @@ The team did not have any plan to adjust the model application. The logistic reg
 The project conducted the training of the model in phases as outlined in the KU Courseware.  The training in this phase the team selected a dataset that provides cleans and paired date where the Y (dependent) and X (independent) variable are available. Once all of the identified datasets are cleaned and processed the data set is divided into a training set and testing set.  According to the KU Boot Camp documentation it recommends a 70% training set to train the model. Continual research and development (if the team were long term) could present opportunities to conduct additonal training sets.
 
 ### Model Accuracy
-Machine learning accuracy is critical for determining how the model illuminates connections and trends across the dataset within the context of the inputs or training data. The more accurate the model can be with data, the more information is available to decision-makers. Therefore, the more valuable the model. The associated model achieved an accuracy score of .76. This means that 7 of 10 single observations in the testing set were predicted correctly by the model.
+Machine learning accuracy is critical for determining how the model illuminates connections and trends across the dataset within the context of the inputs or training data. The more accurate the model can be with data, the more information is available to decision-makers. Therefore, the more valuable the model. The associated model achieved an accuracy score of .75. This means that 7 of 10 single observations in the testing set were predicted correctly by the model.
 
 ![Model Accuracy](/Images/Accuracy_score.PNG)
 
