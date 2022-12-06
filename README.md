@@ -625,7 +625,7 @@ A blueprint for the dashboard is created and includes all of the following:
 - [x] Anything the team would have done differently
 - [x] Slides are primarily images or graphics (rather than primarily text)
 - [x] Images are clear, in high-definition, and directly illustrative of subject matter
-- [ ] Presentations are finalized in Google Slides.
+- [x] Presentations are finalized in Google Slides.
 
 ### GitHub
 #### Main Branch
@@ -660,7 +660,7 @@ Note: The descriptions and explanations required in all other project deliverabl
 - [x] Explanation of model choice, including limitations and benefits
 - [x] Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 - [x] Description of how they have trained the model thus far, and any additional training that will take place
-- [ ] Description and explanation of model’s confusion matrix, including final accuracy score
+- [x] Description and explanation of model’s confusion matrix, including final accuracy score
 - [x] Additionally, the model obviously addresses the question or problem the team is solving.
 
 
