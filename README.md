@@ -4,7 +4,7 @@
 ### Contributors
   - [darin-m-myers](https://github.com/darin-m-myers) - Project Manager & EDA
   - [JBtallgrass](https://github.com/JBtallgrass) - Machine Learning
-  - [saramcel](https://github.com/saramcel) - Database Admin & Dasboard Collab
+  - [saramcel](https://github.com/saramcel) - Database Admin & Dashboard Collab
   - [hanstout](https://github.com/hanstout) - Tech & Tableau Dashboard
   - [AlexKrumins](https://github.com/AlexKrumins) - Git Hub Guru and ML Collab
 
@@ -125,12 +125,14 @@ All non-numeric columns require representative numeric values for the Machine Le
 - AgeCategory for the original database had 13 different groupings with a span of 5 years each. To highlight the particular risk correlated with Heart Disease and increased age, the groupings were split into the following AgeRisk Bins.
 
 <details><summary>Expand to see the AgeCategory -> AgeRisk Bins </summary>
+
 <style>
   table, th, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
   }
 </style>
+
     <p>
       <table>
         <tr>
