@@ -427,7 +427,7 @@ Within these interactive elements, a user will be able to make our dashboard fuc
 
 ### *Personal Key Indicators of Heart Disease Dashboard*, featuring an interactive map of the Kansas City Metro:
 
-![Image](https://github.com/AlexKrumins/Group5_Final_Project/blob/hannah-branch/Images/dashboard.PNG)
+![Image](https://github.com/AlexKrumins/Group5_Final_Project/blob/hannah-branch/Images/dashboard.PNG) 
 
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
