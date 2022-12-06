@@ -573,7 +573,7 @@ README.md must include:
 Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
 
 # Machine Learning Model
-Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
+Team members submit the working code for their machine learning model, as well as the following
 - [x] Takes in data in from the provisional database
 - [x] Outputs label(s) for input data
 
@@ -588,10 +588,6 @@ Team members present a provisional machine learning model that stands in for the
 - [x] Additionally, the model obviously addresses
 
 # Database 
-Team members present a provisional database that stands in for the final database and accomplishes the following:
-- [x] Sample data that mimics the expected final database structure or schema
-- [x] Draft machine learning module is connected to the provisional database 
-
 Team members present a fully integrated database.
 - [x] Database stores static data for use during the project
 - [x] Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
@@ -604,6 +600,80 @@ A blueprint for the dashboard is created and includes all of the following:
 - [x] Images from the initial analysis
 - [x] Data (images or report) from the machine
 - [x] At least one interactive element
+
+ </p>
+ </details>
+
+ <details><summary>Click the Arrow on the left to expand the Fourth Segment Requirements </summary>
+<p>
+
+### Presentation
+- [x] Selected topic
+- [x] Reason why they selected their topic
+- [x] Description of their source of data
+- [x] Questions they hope to answer with the data
+- [x] Description of the data exploration phase of the project - Darin
+- [x] Description of the analysis phase of the project - JB & Alex
+- [x] Technologies, languages, tools, and algorithms used throughout the project
+- [x] Presentations are drafted in Google Slides - Sara
+- [x] Result of analysis
+- [x] Recommendation for future analysis
+- [x] Anything the team would have done differently
+- [x] Slides are primarily images or graphics (rather than primarily text)
+- [x] Images are clear, in high-definition, and directly illustrative of subject matter
+- [ ] Presentations are finalized in Google Slides.
+
+### GitHub
+#### Main Branch
+- [x] All code in the main branch is production ready
+The main branch should include:
+- [x] All code necessary to perform exploratory analysis
+- [x] Most code necessary to complete the machine learning portion of the project
+
+- [x] Includes a README.md
+README.md must include:
+- [x] Description of the communication protocols
+- [x] Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest)
+- [x] Link to Google Slides draft presentation
+- [x] Any images that have been created (at least three)
+
+#### Individual Branches
+| Name | At least one branch for each team member | Each team member has at least four commits from the duration of the second segment |
+| --- | --- | --- |
+| Alex |✓|✓|
+| JB |✓|✓|
+| Sara |✓|✓|
+| Hannah |✓|✓|
+| Darin |✓|✓|
+
+Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
+
+# Machine Learning Model
+- [x] Team members submit the working code for their machine learning model, as well as the following
+- [x] Description of pdata preprocessing (Dummy Columns)
+- [x] Description of feature engineering and preliminary feature selection, including their decision-making process (Decide to keep all or some of the features)
+- [x] Description of how data was split into training and testing sets
+- [x] Explanation of model choice, including limitations and benefits
+- [x] Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+- [x] Description of how they have trained the model thus far, and any additional training that will take place
+- [ ] Description and explanation of model’s confusion matrix, including final accuracy score
+- [x] Additionally, the model obviously addresses the question or problem the team is solving.
+
+
+# Database 
+Team members present a fully integrated database.
+- [x] Database stores static data for use during the project
+- [x] Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+- [x] Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
+- [x] Includes at least two tables (or collections, if using MongoDB)
+- [x] Includes at least one join using the database language (not including any joins in Pandas)
+
+# Dashboard - Hannah
+A blueprint for the dashboard is created and includes all of the following:
+- [x] Images from the initial analysis
+- [x] Data (images or report) from the machine
+- [x] At least one interactive element
+- [x] Either the dashboard is published or the submission includes a screen capture video of it in action.
 
  </p>
  </details>
