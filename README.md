@@ -219,7 +219,7 @@ All non-numeric columns require representative numeric values for the Machine Le
   </p>
 </details>
 
-- The SleepTime data for the original database had no groupings at all. Many rows show the recommended allotment of slee per day (between 7-9 hours). However some of the entries show patients who are recorded as sleeping up to 24 hours! To limit any outliers or significant deviations, groupings were reduced into the following three Recommended Sleep bins.
+- The SleepTime data for the original database had no groupings at all. Many rows show the recommended allotment of sleep per day (between 7-9 hours). However, some of the entries show patients who are recorded as sleeping up to 24 hours! To limit any outliers or significant deviations, groupings were reduced into the following three Recommended Sleep bins.
 <details><summary>Expand to see the SleepTime -> Recommended Sleep Bins</summary>
   <p>
     <table>
@@ -331,7 +331,7 @@ The original data set came from the BRFSS file for 2020. The author that adjuste
 
 ### How Data was Split into Training and Testing Sets
 
-To properly train a machine learning model the datset is broken into a training set and a testing set.  the ratio can be aligned to meet a 50%  split or any ratio keeping in mind the size of the dataset.  in the cse of the heart disease dataset, there are over 300k indivduals within the dataset.  this massive set required the team to consider a smaller ratio of 20% training and 80% testing.  See the image below of the coding
+To properly train a machine learning model the dataset is broken into a training set and a testing set.  The ratio can be aligned to meet a 50% split or any ratio keeping in mind the size of the dataset.  In the case of the heart disease dataset, there are over 300k individuals within the dataset.  this massive set required the team to consider a smaller ratio of 20% training and 80% testing.  See the image below of the coding
 
 <details><summary>Expand to see the Training/Testing Split code</summary>
 <p>
