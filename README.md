@@ -414,16 +414,20 @@ When the tables were joined, three new columns were added to the end of the main
 
 ## Visualization - Tableau - Hannah  
 
-### [Storyboard](https://docs.google.com/presentation/d/1Tq_YHoIKLA8vM0sTt9MWIpa8TwNmWDq270CLZIofgjA/edit#slide=id.g19559894a09_1_65) featured Google Slides.  
- 
 ### Summary: 
 We will use Tableau to funnel the findings of our ML model into geographic markers to show how these features affect the population. As well as tying in interactive elements using features within Tableau. These interactive elements will include: 
 - Input of state and county locations to see personal community risk factors. 
 - Input of personal identifiers to see highest precent of age group.  
 
-Within these interactive elements, a user will be able to make our dashboard fuctional for personal use at an individual and community level. 
+Within these interactive elements, a user will be able to make our dashboard fuctional for personal use at an individual and community level.  
 
-### [Data Dashboard](https://public.tableau.com/views/HeartDiseaseDashboard_16695909016350/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) featured on Tableau Public. 
+### [Storyboard](https://docs.google.com/presentation/d/1Tq_YHoIKLA8vM0sTt9MWIpa8TwNmWDq270CLZIofgjA/edit#slide=id.g19559894a09_1_65) featured Google Slides.  
+
+### [Data Dashboard](https://public.tableau.com/views/HeartDiseaseDashboard_16695909016350/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) featured on Tableau Public.  
+
+### *Personal Key Indicators of Heart Disease Dashboard*, featuring an interactive map of the Kansas City Metro:
+
+![Image](https://github.com/AlexKrumins/Group5_Final_Project/blob/hannah-branch/Images/dashboard.PNG)
 
 ## Project Management - Darin Myers
 Overall Project Management has been overseen by Darin Myers. Darin supervised and lead meeetings and discussions. He helped to streamilne discussions and verified progression as the project progressed.
