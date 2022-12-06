@@ -133,9 +133,12 @@ The project conducted the training of the model in phases as outlined in the KU 
 ### Model Accuracy
 Machine learning accuracy is critical for determining how the model illuminates connections and trends across the dataset within the context of the inputs or training data. The more accurate the model can be with data, the more information is available to decision-makers. Therefore, the more valuable the model. The associated model achieved an accuracy score of .76. This means that 7 of 10 single observations in the testing set were predicted correctly by the model.
 
+![Model Accuracy]
+
 ### Model Confusion Matrix with final precision score
 The confusion matrix is where the model is making errors. The matrix is a fundamental technique to assess the model performance. The matirx outlines the overal performance for the Training set and the Testing set.  within the model the clasification of outcome falls into either a "true" or "false" statement with outcomes along a binary scale. Accoriding to the Module 17 courseware Precision, also known as positive predictive value (PPV), is a measure of this. Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). In the case with this model performance
 
+![Model Precision]
 
 ## Database - PostgresSQL - Sara
 The team has elected to use a Postgres SQL database to store the data tables for this project. This is based on our familiarity with Postgres and connecting to Python with SQLAlchemy. The ERD [all_tables_schema](https://github.com/AlexKrumins/Group5_Final_Project/blob/ed813a1c75cdc1ce08a91933a98e4c18a56b7856/TableSchemas/all_tables_schema.png) decribes the data types for the main table and its relationship with the other three tables. 
