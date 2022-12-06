@@ -1,33 +1,33 @@
 ,coefficient
-bmi,0.009951299592904297
-smoking,0.18880404222025773
-alcoholdrinking,-0.05911593376267569
-stroke,0.24100380536489782
-physicalhealth,0.03827576213365025
-mentalhealth,0.02409272740942521
-diffwalking,0.11938706256734727
-physicalactivity,-0.0010641349840352962
-asthma,0.09867192434851094
-kidneydisease,0.11341510397779235
-skincancer,0.05681576319722304
-sex_Female,-0.17794432740161273
-sex_Male,0.17794432740159719
-agecategory_High Risk,0.5066726143371841
-agecategory_Low Risk,-0.5732074249068343
-agecategory_Medium Risk,0.04878526032092272
-race_American Indian/Alaskan Native,-0.002649183569727057
-race_Asian,-0.05808199038442582
-race_Black,-0.019887585194363594
-race_Hispanic,-0.015054898371847661
-race_Other,0.01716587515255352
-race_White,0.03697244319626118
-diabetic_No,-0.08315381212369864
-diabetic_Yes,0.08315381212369875
-genhealth_Excellent,-0.29828923243070565
-genhealth_Fair,0.24811820898998158
-genhealth_Good,0.13936998659550065
-genhealth_Poor,0.21991246721035573
-genhealth_Very good,-0.12478554919031709
-sleeptime_Above,0.013065346394779553
-sleeptime_Below,0.025202825265127397
-sleeptime_Meets,-0.029593686648403457
+agecategory_High Risk,0.506672614
+genhealth_Fair,0.248118209
+stroke,0.241003805
+genhealth_Poor,0.219912467
+smoking,0.188804042
+sex_Male,0.177944327
+genhealth_Good,0.139369987
+diffwalking,0.119387063
+kidneydisease,0.113415104
+asthma,0.098671924
+diabetic_Yes,0.083153812
+skincancer,0.056815763
+agecategory_Medium Risk,0.04878526
+physicalhealth,0.038275762
+race_White,0.036972443
+sleeptime_Below,0.025202825
+mentalhealth,0.024092727
+race_Other,0.017165875
+sleeptime_Above,0.013065346
+bmi,0.0099513
+physicalactivity,-0.001064135
+race_American Indian/Alaskan Native,-0.002649184
+race_Hispanic,-0.015054898
+race_Black,-0.019887585
+sleeptime_Meets,-0.029593687
+race_Asian,-0.05808199
+alcoholdrinking,-0.059115934
+diabetic_No,-0.083153812
+genhealth_Very good,-0.124785549
+sex_Female,-0.177944327
+genhealth_Excellent,-0.298289232
+agecategory_Low Risk,-0.573207425
