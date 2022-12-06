@@ -1,5 +1,5 @@
 # ignore the password file
-config.py
+Production_Code/config.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
